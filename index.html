@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lovac na cijene · Black Friday BiH</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0d0d0f; --panel:#16161a; --panel2:#1d1d22; --line:#2a2a31;
+    --ink:#f2f0ea; --mute:#9a978f; --acc:#ffd23f; --good:#3ddc84; --bad:#ff6b5b; --hr:#7aa7ff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Space Grotesk",system-ui,sans-serif;font-size:15px;line-height:1.45}
+  a{color:inherit}
+  .wrap{max-width:1180px;margin:0 auto;padding:22px 18px 60px}
+  header{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:18px}
+  h1{font-size:clamp(26px,4.5vw,40px);margin:0;letter-spacing:-.02em;line-height:1}
+  h1 span{color:var(--acc)}
+  .sub{color:var(--mute);margin-top:6px;font-size:14px}
+  .count{display:flex;gap:8px;font-family:"JetBrains Mono",monospace}
+  .count div{background:var(--panel);border:1px solid var(--line);padding:8px 10px;border-radius:8px;text-align:center;min-width:58px}
+  .count b{display:block;font-size:22px;color:var(--acc)}
+  .count small{color:var(--mute);font-size:11px}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--mute);margin:30px 0 12px;font-weight:500}
+  .hero{background:linear-gradient(135deg,#1c1a10,#16161a 60%);border:1px solid #3a3420;border-radius:14px;padding:20px;display:grid;grid-template-columns:1fr;gap:18px}
+  @media(min-width:820px){.hero{grid-template-columns:1.1fr 1fr}}
+  .hero .label{color:var(--acc);font-size:12px;text-transform:uppercase;letter-spacing:.12em}
+  .hero .pname{font-size:24px;font-weight:700;margin:4px 0 10px}
+  .big{font-size:clamp(34px,6vw,52px);font-weight:700;letter-spacing:-.03em;line-height:1}
+  .big small{font-size:18px;color:var(--mute);font-weight:500}
+  .pill{display:inline-block;font-size:12px;padding:3px 8px;border-radius:99px;background:var(--panel2);border:1px solid var(--line);margin:8px 6px 0 0}
+  .pill.good{color:var(--good);border-color:#2b5d3f}
+  .pill.acc{color:var(--acc);border-color:#5a4b16}
+  .pill.hr{color:var(--hr);border-color:#2c3f66}
+  .hero>*{min-width:0}
+  td.num .note{white-space:normal;font-family:'Space Grotesk',sans-serif}
+  .verdict{margin-top:12px;color:var(--ink);font-size:14px;max-width:46ch}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th{text-align:left;font-weight:500;color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.06em;padding:6px 8px;border-bottom:1px solid var(--line)}
+  td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  td.num{font-family:"JetBrains Mono",monospace;text-align:right;white-space:nowrap}
+  tr.best td{background:rgba(61,220,132,.07)}
+  tr.best td:first-child{box-shadow:inset 3px 0 0 var(--good)}
+  tr.abroad td{color:#c9d6f5}
+  .old{color:var(--mute);text-decoration:line-through;font-size:12px;display:block}
+  .note{color:var(--mute);font-size:12px;display:block}
+  .diff{font-size:12px}
+  .diff.up{color:var(--bad)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:6px}
+  .card .n{font-weight:700}
+  .card .p{font-size:26px;font-weight:700;letter-spacing:-.02em}
+  .card .row{display:flex;justify-content:space-between;color:var(--mute);font-size:13px}
+  .card details summary{cursor:pointer;color:var(--acc);font-size:13px;margin-top:4px}
+  .card details table{margin-top:6px;font-size:13px}
+  .target{display:flex;gap:6px;align-items:center;font-size:12px;color:var(--mute);margin-top:4px}
+  .target input{width:90px;background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:6px;padding:4px 6px;font:inherit}
+  .hit{color:var(--good);font-weight:700}
+  .toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+  .toolbar input,.toolbar select{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:8px 10px;font:inherit}
+  .toolbar input{flex:1;min-width:180px}
+  .deal{display:grid;grid-template-columns:54px 1fr auto;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;text-decoration:none}
+  .deal:hover{border-color:#4a4a55}
+  .deal .pct{font-family:"JetBrains Mono",monospace;font-size:15px;color:#111;background:var(--acc);border-radius:6px;text-align:center;padding:6px 0}
+  .deal .meta{color:var(--mute);font-size:12px}
+  .deal .pr{text-align:right;font-family:"JetBrains Mono",monospace}
+  .deals{display:grid;gap:8px}
+  .spark{width:100%;height:46px}
+  footer{margin-top:36px;color:var(--mute);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
+  .shops{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+  .shops a{font-size:12px;padding:3px 9px;border:1px solid var(--line);border-radius:99px;text-decoration:none;color:var(--mute)}
+  .empty{color:var(--mute);padding:14px}
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+  <header>
+    <div>
+      <h1>Lovac na <span>cijene</span></h1>
+      <div class="sub" id="updated">Učitavam…</div>
+      <div class="shops" id="shoplinks"></div>
+    </div>
+    <div>
+      <div class="sub" style="margin:0 0 6px">Do Black Fridaya (27.11.)</div>
+      <div class="count" id="countdown"></div>
+    </div>
+  </header>
+
+  <h2 id="focus-h">Fokus</h2>
+  <section class="hero" id="focus"></section>
+
+  <h2>Lista praćenja</h2>
+  <section class="grid" id="watch"></section>
+
+  <h2>Najveći popusti trenutno</h2>
+  <div class="toolbar">
+    <input id="q" type="search" placeholder="Traži artikal…">
+    <select id="cat"><option value="">Sve kategorije</option></select>
+    <select id="shop"><option value="">Sve prodavnice</option></select>
+    <select id="sort">
+      <option value="pct">Sortiraj: najveći % popusta</option>
+      <option value="save">Sortiraj: najveća ušteda (KM)</option>
+      <option value="price">Sortiraj: najniža cijena</option>
+    </select>
+  </div>
+  <section class="deals" id="deals"></section>
+
+  <footer id="foot"></footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  const D = window.DEALS;
+  const $ = s => document.querySelector(s);
+  const el = (tag, attrs={}, ...kids) => { const e=document.createElement(tag); for(const [k,v] of Object.entries(attrs)){ if(k==='class') e.className=v; else if(k==='text') e.textContent=v; else e.setAttribute(k,v);} kids.flat().forEach(k=>{ if(k==null) return; e.append(k.nodeType?k:document.createTextNode(k)); }); return e; };
+  const km = v => { if(v==null) return '—'; const neg=v<0; const [i,f]=Math.abs(v).toFixed(2).split('.'); return (neg?'−':'')+i.replace(/\B(?=(\d{3})+(?!\d))/g,'.')+','+f+' KM'; };
+  const p2 = n => String(n).padStart(2,'0');
+  const dt = (s, withTime=true) => { const d=new Date(s); return d.getDate()+'.'+(d.getMonth()+1)+'.'+d.getFullYear()+'.'+(withTime? ' u '+p2(d.getHours())+':'+p2(d.getMinutes()):''); };
+  const shopName = id => (D.shops[id]||{}).name || id;
+  const store = {
+    get(k){ try{ return JSON.parse(localStorage.getItem('lnc_'+k)); }catch(e){ return null; } },
+    set(k,v){ try{ localStorage.setItem('lnc_'+k, JSON.stringify(v)); }catch(e){} }
+  };
+
+  if(!D){ $('#updated').textContent='Podaci nisu učitani.'; return; }
+
+  // header
+  const up = new Date(D.updated);
+  $('#updated').textContent = 'Zadnje ažuriranje: ' + dt(D.updated) + ' · osvježava se svakih 12 h';
+  Object.entries(D.shops).forEach(([id,s])=>{
+    const end = s.promoEnds ? ' · akcija do '+(d=>d.getDate()+'.'+(d.getMonth()+1)+'.')(new Date(s.promoEnds)) : '';
+    $('#shoplinks').append(el('a',{href:s.url,target:'_blank',rel:'noopener'}, s.name+end));
+  });
+
+  // countdown
+  function tick(){
+    const ms = new Date(D.blackFriday+'T00:00:00+01:00') - new Date();
+    const c = $('#countdown'); c.innerHTML='';
+    if(ms<=0){ c.append(el('div',{},el('b',{text:'DANAS'}),el('small',{text:'je Black Friday'}))); return; }
+    const d=Math.floor(ms/864e5), h=Math.floor(ms/36e5)%24, m=Math.floor(ms/6e4)%60;
+    [[d,'dana'],[h,'sati'],[m,'min']].forEach(([v,l])=>c.append(el('div',{},el('b',{text:String(v).padStart(2,'0')}),el('small',{text:l}))));
+  }
+  tick(); setInterval(tick, 30000);
+
+  // helpers
+  const priced = w => w.offers.filter(o=>o.price!=null && o.inStock!==false);
+  const bestLocal = w => priced(w).filter(o=>!o.abroad).sort((a,b)=>a.price-b.price)[0];
+  const bestAbroad = w => priced(w).filter(o=>o.abroad).sort((a,b)=>a.price-b.price)[0];
+
+  function spark(hist){
+    const pts = (hist||[]).filter(h=>h.best!=null);
+    const svg = document.createElementNS('http://www.w3.org/2000/svg','svg');
+    svg.setAttribute('class','spark'); svg.setAttribute('viewBox','0 0 300 46'); svg.setAttribute('preserveAspectRatio','none');
+    if(pts.length<2){ return el('div',{class:'note',text:'Graf historije cijene se puni sa svakim ažuriranjem.'}); }
+    const ys=pts.map(p=>p.best), min=Math.min(...ys), max=Math.max(...ys), r=(max-min)||1;
+    const d=pts.map((p,i)=>`${i?'L':'M'}${(i/(pts.length-1))*296+2},${40-((p.best-min)/r)*34}`).join(' ');
+    const path=document.createElementNS(svg.namespaceURI,'path'); path.setAttribute('d',d); path.setAttribute('fill','none'); path.setAttribute('stroke','#ffd23f'); path.setAttribute('stroke-width','2'); path.setAttribute('vector-effect','non-scaling-stroke');
+    const tt=document.createElementNS(svg.namespaceURI,'title'); tt.textContent=`Min ${km(min)} · Max ${km(max)}`; svg.append(tt, path);
+    return svg;
+  }
+
+  function offerTable(w){
+    const best = bestLocal(w);
+    const rows = [...w.offers].sort((a,b)=>(a.price??1e9)-(b.price??1e9));
+    const tb = el('tbody');
+    rows.forEach(o=>{
+      const isBest = best && o===best;
+      let diff=null;
+      if(best && o.price!=null && o!==best){
+        const dlt=o.price-best.price;
+        diff = el('span',{class:'diff'+(dlt>0?' up':''), text:(dlt>0?'+':'')+km(dlt)});
+      }
+      tb.append(el('tr',{class:(isBest?'best ':'')+(o.abroad?'abroad':'')},
+        el('td',{}, el('a',{href:o.url,target:'_blank',rel:'noopener'}, shopName(o.shop)), el('span',{class:'note',text:o.variant||''})),
+        el('td',{class:'num'}, o.price!=null? km(o.price) : 'nema', o.old? el('span',{class:'old',text:km(o.old)}):null, o.note? el('span',{class:'note',text:o.note}):null),
+        el('td',{class:'num'}, isBest? el('span',{class:'hit',text:'najjeftinije'}) : diff)
+      ));
+    });
+    return el('table',{}, el('thead',{}, el('tr',{}, el('th',{text:'Prodavnica'}), el('th',{style:'text-align:right',text:'Cijena'}), el('th',{style:'text-align:right',text:'Razlika'}))), tb);
+  }
+
+  function targetBox(w, best){
+    const box = el('div',{class:'target'});
+    const inp = el('input',{type:'number',inputmode:'decimal',placeholder:'npr. 2400'});
+    const t = store.get('target_'+w.id); if(t) inp.value=t;
+    const msg = el('span');
+    const upd = ()=>{ const v=parseFloat(inp.value); store.set('target_'+w.id, isNaN(v)?null:v);
+      msg.textContent=''; msg.className='';
+      if(!isNaN(v) && best){ if(best.price<=v){ msg.textContent='✓ ispod tvoje cijene!'; msg.className='hit'; } else { msg.textContent='još '+km(best.price-v); } } };
+    inp.addEventListener('input',upd); upd();
+    box.append('Moja ciljna cijena:', inp, 'KM', msg);
+    return box;
+  }
+
+  // focus
+  const focus = D.watch.find(w=>w.focus) || D.watch[0];
+  if(focus){
+    $('#focus-h').textContent = 'Fokus · ' + focus.name;
+    const best = bestLocal(focus), abroad = bestAbroad(focus);
+    const left = el('div',{});
+    left.append(el('div',{class:'label',text:'Najbolja cijena u BiH'}));
+    left.append(el('div',{class:'pname',text:focus.name}));
+    left.append(el('div',{class:'big'}, best? km(best.price):'—', ' ', el('small',{text: best? 'u '+shopName(best.shop):''})));
+    if(best && best.old) left.append(el('span',{class:'pill good',text:'−'+Math.round((1-best.price/best.old)*100)+'% · ušteda '+km(best.old-best.price)}));
+    const others = priced(focus).filter(o=>!o.abroad && o!==best).sort((a,b)=>a.price-b.price)[0];
+    if(best && others) left.append(el('span',{class:'pill acc',text:km(others.price-best.price)+' jeftinije od '+shopName(others.shop)}));
+    if(abroad) left.append(el('span',{class:'pill hr',text:'HR: '+km(abroad.price)+' ('+ (abroad.note||'') +')'}));
+    const hist = focus.history||[];
+    const low = hist.length? Math.min(...hist.map(h=>h.best)) : null;
+    let verdict = '';
+    if(best){
+      verdict = best.price<=low ? 'Ovo je najniža cijena koju je tracker zabilježio.' : 'Najniža zabilježena cijena bila je '+km(low)+'.';
+      if(abroad) verdict += ' Kupovina u Hrvatskoj je oko '+km(best.price-abroad.price)+' jeftinija, ali bez lokalne garancije i uz putovanje.';
+    }
+    left.append(el('div',{class:'verdict',text:verdict}));
+    left.append(spark(hist));
+    left.append(targetBox(focus,best));
+    const right = el('div',{}, offerTable(focus));
+    $('#focus').append(left,right);
+  }
+
+  // watchlist
+  D.watch.filter(w=>w!==focus).forEach(w=>{
+    const best = bestLocal(w);
+    const c = el('article',{class:'card',id:'w-'+w.id});
+    c.append(el('div',{class:'n',text:w.name}));
+    c.append(el('div',{class:'p',text: best? km(best.price):'nema u ponudi'}));
+    c.append(el('div',{class:'row'}, el('span',{text: best? shopName(best.shop):''}), el('span',{text: w.offers.length+' ponuda'})));
+    if(best && best.old) c.append(el('div',{}, el('span',{class:'pill good',text:'−'+Math.round((1-best.price/best.old)*100)+'%'})));
+    c.append(spark(w.history));
+    c.append(targetBox(w,best));
+    c.append(el('details',{}, el('summary',{text:'Uporedi prodavnice'}), offerTable(w)));
+    $('#watch').append(c);
+  });
+
+  // deals
+  const deals = (D.topDeals||[]).map(d=>({...d, pct: d.old? (1-d.price/d.old)*100 : 0, save: d.old? d.old-d.price:0}));
+  [...new Set(deals.map(d=>d.cat))].sort().forEach(c=>$('#cat').append(el('option',{value:c,text:c})));
+  [...new Set(deals.map(d=>d.shop))].forEach(s=>$('#shop').append(el('option',{value:s,text:shopName(s)})));
+  function renderDeals(){
+    const q=$('#q').value.toLowerCase().trim(), cat=$('#cat').value, sh=$('#shop').value, so=$('#sort').value;
+    let list = deals.filter(d=>(!q||d.name.toLowerCase().includes(q)) && (!cat||d.cat===cat) && (!sh||d.shop===sh));
+    list.sort((a,b)=> so==='price'? a.price-b.price : so==='save'? b.save-a.save : b.pct-a.pct);
+    const box=$('#deals'); box.innerHTML='';
+    if(!list.length){ box.append(el('div',{class:'empty',text:'Ništa ne odgovara filteru.'})); return; }
+    list.forEach(d=>box.append(el('a',{class:'deal',href:d.url,target:'_blank',rel:'noopener'},
+      el('div',{class:'pct',text: d.pct? '−'+Math.round(d.pct)+'%':'UAU'}),
+      el('div',{}, el('div',{text:d.name}), el('div',{class:'meta',text: shopName(d.shop)+' · '+d.cat + (d.note? ' · '+d.note:'')})),
+      el('div',{class:'pr'}, el('div',{text:km(d.price)}), d.old? el('span',{class:'old',text:km(d.old)}):null)
+    )));
+  }
+  ['#q','#cat','#shop','#sort'].forEach(s=>$(s).addEventListener('input',renderDeals));
+  renderDeals();
+
+  // footer
+  const log = (D.log||[]).slice(-5).reverse().map(l=>dt(l.t)+' — '+l.msg).join('\n');
+  $('#foot').append(el('div',{text:'Cijene su prikupljene direktno sa web stranica prodavnica i mogu se promijeniti u međuvremenu — provjeri na stranici prije kupovine. HR cijene preračunate po kursu 1 € = 1,95583 KM.'}));
+  if(D.noShop && D.noShop.length) $('#foot').append(el('div',{style:'margin-top:6px',text:'Ne prate se: '+D.noShop.map(n=>n.name+' ('+n.why+')').join('; ')+'.'}));
+  $('#foot').append(el('pre',{style:'white-space:pre-wrap;font-family:inherit;margin-top:8px',text:log}));
+})();
+</script>
+</body>
+</html>
