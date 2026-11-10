@@ -1,5 +1,5 @@
 window.DEALS = {
-  "updated": "2026-11-10T13:35:00Z",
+  "updated": "2026-11-10T14:50:00Z",
   "eurToKm": 1.95583,
   "blackFriday": "2026-11-27",
   "shops": {
@@ -41,6 +41,16 @@ window.DEALS = {
     "procomp": {
       "name": "Procomp",
       "url": "https://procomp.ba/",
+      "promoEnds": null
+    },
+    "ananas": {
+      "name": "Ananas",
+      "url": "https://ananas.ba/promo/crni-petak",
+      "promoEnds": null
+    },
+    "neptun": {
+      "name": "Neptun",
+      "url": "https://www.neptunbih.ba/",
       "promoEnds": null
     },
     "nabava_hr": {
@@ -151,11 +161,51 @@ window.DEALS = {
           "inStock": false,
           "note": "Nema iPhone 17 u ponudi",
           "url": "https://bingoshop.ba/pretraga?keywords=iphone"
+        },
+        {
+          "shop": "neptun",
+          "variant": "Silver / Cosmic Orange / Deep Blue",
+          "price": 2689.9,
+          "old": 2899.9,
+          "inStock": true,
+          "url": "https://www.neptunbih.ba/19451-iphone.nspx"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Prodavač Genelec · Deep Blue",
+          "price": 2699,
+          "old": 3299,
+          "inStock": true,
+          "url": "https://ananas.ba/proizvod/apple-iphone-17-pro-12-256gb-deep-blue/7122508"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Prodavač Digitalis · Cosmic Orange",
+          "price": 2699.9,
+          "old": 3462.4,
+          "inStock": true,
+          "url": "https://ananas.ba/search?query=iphone%2017%20pro%20256"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Prodavač Tehnodepo · Deep Blue",
+          "price": 2899,
+          "old": 3849,
+          "inStock": true,
+          "url": "https://ananas.ba/search?query=iphone%2017%20pro%20256"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Prodavač Megatron · Crni / Narandžasti",
+          "price": 2923.2,
+          "old": null,
+          "inStock": true,
+          "url": "https://ananas.ba/search?query=iphone%2017%20pro%20256"
         }
       ],
       "history": [
         {
-          "t": "2026-11-10T13:20:00Z",
+          "t": "2026-11-10T14:50:00Z",
           "best": 2599.9,
           "shop": "bigbang"
         }
@@ -182,13 +232,29 @@ window.DEALS = {
           "inStock": true,
           "note": "Top Black Friday cijena",
           "url": "https://www.ekupi.ba/bs/search/?text=oneblade+pro"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Prodavač Digitalis",
+          "price": 109.9,
+          "old": 186.25,
+          "inStock": true,
+          "url": "https://ananas.ba/search?query=oneblade%20pro"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Prodavač Neptun BiH",
+          "price": 119.9,
+          "old": 169.9,
+          "inStock": true,
+          "url": "https://ananas.ba/proizvod/philips-trimer-sa-jednom-ostricom-qp6542-15-crno-zeleni/4150525"
         }
       ],
       "history": [
         {
-          "t": "2026-11-10T13:20:00Z",
-          "best": 129,
-          "shop": "bigbang"
+          "t": "2026-11-10T14:50:00Z",
+          "best": 109.9,
+          "shop": "ananas"
         }
       ]
     },
@@ -220,13 +286,30 @@ window.DEALS = {
           "old": null,
           "inStock": true,
           "url": "https://fontele.ba/proizvod/philips-aparat-za-brijanje-qp655215-oneblade-pro-360/8406"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Ananas Shop · HIT 100 Crnog petka",
+          "price": 139,
+          "old": 209,
+          "inStock": true,
+          "note": "Cijena uz dodatni Crni petak popust",
+          "url": "https://ananas.ba/proizvod/philips-trimer-one-blade-qp6552-15-crni/5065672"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Prodavač Digitalis",
+          "price": 139,
+          "old": 224.9,
+          "inStock": true,
+          "url": "https://ananas.ba/proizvod/philips-trimer-one-blade-qp6552-15-crni/3717351"
         }
       ],
       "history": [
         {
-          "t": "2026-11-10T13:35:00Z",
-          "best": 170.1,
-          "shop": "fontele"
+          "t": "2026-11-10T14:50:00Z",
+          "best": 139,
+          "shop": "ananas"
         }
       ]
     },
@@ -258,13 +341,29 @@ window.DEALS = {
           "old": null,
           "inStock": true,
           "url": "https://fontele.ba/proizvod/philips-aparat-za-brijanje-philips-oneblade-pro-360-face-body-qp665261/8407"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Ananas Shop",
+          "price": 189.9,
+          "old": 255,
+          "inStock": true,
+          "url": "https://ananas.ba/proizvod/philips-pro-aparat-za-brijanje-qp6652-61-one-blade/5065642"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Prodavač Digitalis",
+          "price": 189.9,
+          "old": 283.65,
+          "inStock": true,
+          "url": "https://ananas.ba/proizvod/philips-pro-aparat-za-brijanje-qp6652-61-one-blade/3515119"
         }
       ],
       "history": [
         {
-          "t": "2026-11-10T13:35:00Z",
-          "best": 206.1,
-          "shop": "fontele"
+          "t": "2026-11-10T14:50:00Z",
+          "best": 189.9,
+          "shop": "ananas"
         }
       ]
     },
@@ -391,11 +490,35 @@ window.DEALS = {
           "abroad": true,
           "note": "od 1.174,00 €",
           "url": "https://www.nabava.net/mobiteli?q=iphone+17+pro+256gb"
+        },
+        {
+          "shop": "neptun",
+          "variant": "Sve boje",
+          "price": 2979.9,
+          "old": 3189.9,
+          "inStock": true,
+          "url": "https://www.neptunbih.ba/19451-iphone.nspx"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Prodavač Genelec · tamnoplavi",
+          "price": 2999,
+          "old": 3599,
+          "inStock": true,
+          "url": "https://ananas.ba/proizvod/iphone-17-pro-max-256gb-tamnoplave-boje/7122490"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Prodavač Digitalis · Silver / Deep Blue / Orange",
+          "price": 2999.9,
+          "old": 3974.9,
+          "inStock": true,
+          "url": "https://ananas.ba/search?query=iphone%2017%20pro%20max%20256"
         }
       ],
       "history": [
         {
-          "t": "2026-11-10T13:20:00Z",
+          "t": "2026-11-10T14:50:00Z",
           "best": 2899.9,
           "shop": "bigbang"
         }
@@ -439,6 +562,14 @@ window.DEALS = {
           "inStock": true,
           "note": "Samo eSIM",
           "url": "https://procomp.ba/iphone-mobiteli/74549-apple-iphone-18-pro-esim-256gb-silver.html"
+        },
+        {
+          "shop": "ananas",
+          "variant": "Prodavač Megatron · Glacier",
+          "price": 3347.9,
+          "old": 3850.1,
+          "inStock": true,
+          "url": "https://ananas.ba/search?query=iphone%2018%20pro%20256"
         }
       ],
       "history": [
@@ -704,6 +835,59 @@ window.DEALS = {
       "old": null,
       "note": "Black Friday",
       "url": "https://fontele.ba/"
+    },
+    {
+      "shop": "ananas",
+      "cat": "Lična njega",
+      "name": "Philips OneBlade Pro 360 QP6552/15",
+      "price": 139,
+      "old": 209,
+      "note": "HIT 100 Crnog petka",
+      "url": "https://ananas.ba/proizvod/philips-trimer-one-blade-qp6552-15-crni/5065672"
+    },
+    {
+      "shop": "ananas",
+      "cat": "TV i audio",
+      "name": "TCL 55\" 4K Google TV 55P6K",
+      "price": 599,
+      "old": 699,
+      "note": "HIT 100 Crnog petka",
+      "url": "https://ananas.ba/promo/crni-petak"
+    },
+    {
+      "shop": "ananas",
+      "cat": "Kućanski aparati",
+      "name": "Philips friteza na vrući zrak NA120",
+      "price": 144.9,
+      "old": 199,
+      "note": "HIT 100 Crnog petka",
+      "url": "https://ananas.ba/promo/crni-petak"
+    },
+    {
+      "shop": "ananas",
+      "cat": "Kućanski aparati",
+      "name": "Krups Dolce Gusto Piccolo XS KP1A3110",
+      "price": 104.9,
+      "old": 135,
+      "note": "HIT 100 Crnog petka",
+      "url": "https://ananas.ba/promo/crni-petak"
+    },
+    {
+      "shop": "ananas",
+      "cat": "Kućanski aparati",
+      "name": "Xplorer štapni usisivač P5",
+      "price": 39.9,
+      "old": 69.9,
+      "note": "HIT 100 Crnog petka",
+      "url": "https://ananas.ba/promo/crni-petak"
+    },
+    {
+      "shop": "neptun",
+      "cat": "Mobiteli, satovi, slušalice",
+      "name": "iPhone 17 Pro 256GB (sve boje)",
+      "price": 2689.9,
+      "old": 2899.9,
+      "url": "https://www.neptunbih.ba/19451-iphone.nspx"
     }
   ],
   "log": [
@@ -714,6 +898,10 @@ window.DEALS = {
     {
       "t": "2026-11-10T13:35:00Z",
       "msg": "Dodane prodavnice: dm, Bingo (BingoShop), fonTELe, Procomp. CM i Robot nemaju web shop."
+    },
+    {
+      "t": "2026-11-10T14:50:00Z",
+      "msg": "Dodani Ananas (sa svim prodavačima) i Neptun. OneBlade Pro najjeftiniji na Ananasu."
     }
   ],
   "noShop": [
