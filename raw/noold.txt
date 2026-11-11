@@ -1,0 +1,43 @@
+domod|shop/proizvod/bosch-ugradbena-masina-za-pranje-posuda-spv2ikx10e-serie-2blackfridayonline/BSH3821|Bosch ugradbena mašina za posuđe SPV2IKX10E Serie 2|959|K|Black Friday online
+domod|shop/proizvod/cy754130-tefal-multikuker-turbo-cuisine-whiteblackfridayonline/SEB6013|Tefal multicooker Turbo Cuisine CY754130|309|K|Black Friday online
+domod|shop/proizvod/sm-x130nzaaeuctablet-samsung-galaxy-a11-464gb-wifi-grayblackfridayonline/SAM4467|Samsung Galaxy Tab A11 4/64GB WiFi|249|M|Black Friday online
+domod|shop/proizvod/tv-hisense-58a6s-58-a6s-4k-uhd-led-smart-tv-60hz-vidaa-os-blackfridayonline/HS58A6S|TV Hisense 58" 58A6S 4K|869|T|Black Friday online
+domod|shop/proizvod/tv-hisense-58e7s-58-e7s-4k-uhd-qled-smart-tv-60hz-vidaa-osblackfridayonline/HS58E7S|TV Hisense 58" 58E7S QLED 4K|899|T|Black Friday online
+domod|shop/proizvod/tv-65philips-65pus7001-12-4k-uhd-led-smart-tv-titan-osblackfridayonline/PH65PUS7001|TV Philips 65" 65PUS7001 4K|899|T|Black Friday online
+domod|shop/proizvod/frizider-komb-sbs-gorenje-nrs917e41bx-1786x911x615cm-blackfridayonline/GC20017286|Frižider Side by Side Gorenje NRS917E41BX|1069|K|Black Friday online
+domod|shop/proizvod/samsung-kombinovani-frizider-rb34c602es9-ekvecakupovinavecipoklonsamakcija/SM5707|Samsung frižider RB34C602ES9|749|K|Samsung akcija
+domod|shop/proizvod/ww60a3120we-le-masina-za-pranje-vesa-samsungvecakupovinavecipoklonsamakcija/SM1937|Samsung mašina za veš WW60A3120WE 6kg|499|K|Samsung akcija
+domod|shop/proizvod/ww90cgc0edaele-masina-za-ves-samsungvecakupovinavecipoklonsamakcija/SM4937|Samsung mašina za veš WW90CGC0EDAE 9kg|749|K|Samsung akcija
+fontele|proizvod/xiaomi-mobitel-redmi-note-17-pro-max-5g-512gb-8gb-black/9525|Xiaomi Redmi Note 17 Pro Max 5G 8/512GB|1169|M|Black Friday
+fontele|proizvod/xiaomi-mobitel-redmi-note-17-pro-max-5g-256gb-8gb-black/9522|Xiaomi Redmi Note 17 Pro Max 5G 8/256GB|999|M|Black Friday
+fontele|proizvod/xiaomi-mobitel-redmi-note-17-pro-5g-256gb-6gb-black/9529|Xiaomi Redmi Note 17 Pro 5G 6/256GB|749|M|Black Friday
+fontele|proizvod/apple-mobitel-iphone-16-128gb-plavi/5430|Apple iPhone 16 128GB|1799.1|M|Hit cijena
+fontele|proizvod/beats-bezicne-slusalice-studio-pro-wireless-headphones-crna/7393|Beats Studio Pro bežične slušalice|699|M|Hit cijena
+fontele|proizvod/beats-bezicne-slusalice-solo4-wireless-headphones-on-ear-plave/7389|Beats Solo4 bežične slušalice|449|M|Hit cijena
+fontele|proizvod/apple-tablet-ipad-10th-wifi-64gb-srebrna/6231|Apple iPad 10. gen WiFi 64GB|899.1|M|Hit cijena
+fontele|proizvod/apple-tablet-ipad-11-inch-a16-wi-fi-128gb-srebrna/7026|Apple iPad 11" A16 WiFi 128GB|1079.1|M|Hit cijena
+fontele|proizvod/apple-tablet-ipad-pro-m5-11-wifi-256gb-w-standard-glass-space-black/8328|Apple iPad Pro 11" M5 WiFi 256GB|2799|M|Super cijena
+fontele|proizvod/samsung-tablet-galaxy-a11-64gb-4gb-wi-fi-gray/8707|Samsung Galaxy Tab A11 4/64GB WiFi|259.2|M|Hit cijena
+fontele|proizvod/samsung-tablet-s11-wi-fi-128gb-12gb-gray/8029|Samsung Galaxy Tab S11 12/128GB WiFi|1349.1|M|Hit cijena
+fontele|proizvod/apple-pametni-sat-ultra2-v2-cellular-49mm-black-titanium-black-trail-loop-ml/7089|Apple Watch Ultra 2 Cellular 49mm|1749|M|Hit cijena
+fontele|proizvod/xiaomi-monitor-2k-curved-gaming-g34wqi-crni/8263|Xiaomi 34" 2K curved gaming monitor G34WQi|539.1|L|Hit cijena
+fontele|proizvod/philips-televizor-65pus8109-4k-ambilight-tv-titan-os-crni/7703|TV Philips 65" 65PUS8109 4K Ambilight|1049|T|Hit cijena
+fontele|proizvod/lg-tv-65-led-65ut73003la-4k-ultra-hd-smart-crni/7776|TV LG 65" 65UT73003LA 4K|1089|T|Hit cijena
+fontele|proizvod/tesla-tv-65-q65e665buv-uhd-qled-vidaa-os-crna/9616|TV Tesla 65" Q65E665BUV QLED|899|T|Black Friday
+fontele|proizvod/hisense-televizor-50a6q-smart-tv-4k-60-hz-smart-os-crna/9955|TV Hisense 50" 50A6Q 4K|549|T|Black Friday
+fontele|proizvod/samsung-televizor-65-crystal-ue65u8072hux-4k-samsung-vision-ai-smart-tv-crna/9504|TV Samsung 65" UE65U8072H 4K|929|T|Black Friday
+fontele|proizvod/tcl-televizor-50c6ks-4k-qd-miniled-tv-google-crni/8016|TV TCL 50" 50C6KS QD-MiniLED Google TV|869|T|Black Friday
+fontele|proizvod/samsung-televizor-50crystal-uhd-4k-50u8072h-smart-tv2026-crna/9542|TV Samsung 50" UE50U8072H 4K (2026)|609|T|Black Friday
+fontele|proizvod/samsung-televizor-55-crystal-uhd-ue55u8092huxxh-4k-smart-tv-crna/9954|TV Samsung 55" UE55U8092H 4K|765|T|Black Friday
+fontele|proizvod/hisense-tv-55-55a6s-4k-uhd-led-smart-tv-vidaa-os-crna/8957|TV Hisense 55" 55A6S 4K|629|T|Hit cijena
+fontele|proizvod/tesla-tv-55-q55e665buv-4k-uhd-qled-smart-tv-vidaa-os/9577|TV Tesla 55" Q55E665BUV QLED|669|T|Black Friday
+fontele|proizvod/tesla-tv-43-q43e665gfs-qled-fhd-google-tv/8674|TV Tesla 43" Q43E665GFS QLED Google TV|399|T|Black Friday
+fontele|proizvod/philips-tv-55-55pus781012-4k-qled-philips-soundbar-tab400010/8919|TV Philips 55" 55PUS7810 QLED + soundbar|719|T|Black Friday
+fontele|proizvod/indesit-masina-za-pranje-vesa-mtwe-71252-wk-ee-bijela/7724|Indesit mašina za veš MTWE 71252|519|K|Black Friday
+fontele|proizvod/gorenje-masina-za-ves-wg694a11-9kg-1400-obrt-bijela/8839|Gorenje mašina za veš WG694A11 9kg|799|K|Black Friday
+fontele|proizvod/electrolux-masina-za-ves-8kg-1400obrt-ew6f9482e-bijela-crna-vrata/9334|Electrolux mašina za veš EW6F9482E 8kg|769|K|Black Friday
+fontele|proizvod/candy-masina-za-ves-gd-48sb6s-8kg-1400obrt-bijela-sa-crnim-vratima/9420|Candy mašina za veš GD 48SB6/S 8kg|569|K|Black Friday
+fontele|proizvod/candy-masina-za-ves-bp-410bl8-s-10kg-1400obrt-bijela-sa-crnim-vratima/9950|Candy mašina za veš BP 410BL8-S 10kg|649|K|Black Friday
+fontele|proizvod/lg-masina-za-pranje-vesa-11kg-f4wr511s1w-bijela/8565|LG mašina za veš F4WR511S1W 11kg|999|K|Hit cijena
+fontele|proizvod/bosch-masina-za-pranje-vesa-wan2406nby-serie-4-bijela/8949|Bosch mašina za veš WAN2406NBY Serie 4|975|K|Black Friday
+fontele|proizvod/bosch-susilica-za-ves-wth83002by-serie-4-7-kg-s-toplotnom-pumpom-bijela/2055|Bosch sušilica WTH83002BY 7kg toplotna pumpa|1220|K|Black Friday

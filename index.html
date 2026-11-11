@@ -67,6 +67,9 @@
   .deal .meta{color:var(--mute);font-size:12px}
   .deal .pr{text-align:right;font-family:"JetBrains Mono",monospace}
   .deals{display:grid;gap:8px}
+  .deal .pct.bf{background:#2a2a31;color:var(--acc)}
+  .morebtn{background:var(--panel);border:1px solid var(--line);color:var(--acc);border-radius:8px;padding:10px 22px;font:inherit;cursor:pointer}
+  .morebtn:hover{border-color:#4a4a55}
   .spark{width:100%;height:46px}
   footer{margin-top:36px;color:var(--mute);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
   .shops{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
@@ -103,9 +106,27 @@
       <option value="pct">Sortiraj: najveći % popusta</option>
       <option value="save">Sortiraj: najveća ušteda (KM)</option>
       <option value="price">Sortiraj: najniža cijena</option>
+      <option value="pricedesc">Sortiraj: najviša cijena</option>
+    </select>
+    <select id="minpct">
+      <option value="0">Svi popusti</option>
+      <option value="20">Popust 20%+</option>
+      <option value="30">Popust 30%+</option>
+      <option value="40">Popust 40%+</option>
+      <option value="50">Popust 50%+</option>
+    </select>
+    <select id="maxprice">
+      <option value="">Bilo koja cijena</option>
+      <option value="100">do 100 KM</option>
+      <option value="300">do 300 KM</option>
+      <option value="600">do 600 KM</option>
+      <option value="1000">do 1.000 KM</option>
+      <option value="2000">do 2.000 KM</option>
     </select>
   </div>
+  <div class="sub" id="dealcount" style="margin:-4px 0 10px"></div>
   <section class="deals" id="deals"></section>
+  <div style="text-align:center;margin-top:12px"><button id="more" class="morebtn">Prikaži još</button></div>
 
   <footer id="foot"></footer>
 </div>
@@ -240,19 +261,26 @@
   const deals = (D.topDeals||[]).map(d=>({...d, pct: d.old? (1-d.price/d.old)*100 : 0, save: d.old? d.old-d.price:0}));
   [...new Set(deals.map(d=>d.cat))].sort().forEach(c=>$('#cat').append(el('option',{value:c,text:c})));
   [...new Set(deals.map(d=>d.shop))].forEach(s=>$('#shop').append(el('option',{value:s,text:shopName(s)})));
-  function renderDeals(){
-    const q=$('#q').value.toLowerCase().trim(), cat=$('#cat').value, sh=$('#shop').value, so=$('#sort').value;
-    let list = deals.filter(d=>(!q||d.name.toLowerCase().includes(q)) && (!cat||d.cat===cat) && (!sh||d.shop===sh));
-    list.sort((a,b)=> so==='price'? a.price-b.price : so==='save'? b.save-a.save : b.pct-a.pct);
+  const PAGE=40; let shown=PAGE;
+  const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d');
+  function renderDeals(reset){
+    if(reset!==false) shown=PAGE;
+    const q=norm($('#q').value.trim()), cat=$('#cat').value, sh=$('#shop').value, so=$('#sort').value;
+    const minp=+$('#minpct').value, maxp=+$('#maxprice').value||Infinity;
+    let list = deals.filter(d=>(!q||q.split(/\s+/).every(w=>norm(d.name).includes(w))) && (!cat||d.cat===cat) && (!sh||d.shop===sh) && (d.pct>=minp) && d.price<=maxp);
+    list.sort((a,b)=> so==='price'? a.price-b.price : so==='pricedesc'? b.price-a.price : so==='save'? b.save-a.save : (b.pct-a.pct)||(a.price-b.price));
     const box=$('#deals'); box.innerHTML='';
+    $('#dealcount').textContent = list.length+' od '+deals.length+' artikala na akciji';
+    $('#more').style.display = list.length>shown ? '' : 'none';
     if(!list.length){ box.append(el('div',{class:'empty',text:'Ništa ne odgovara filteru.'})); return; }
-    list.forEach(d=>box.append(el('a',{class:'deal',href:d.url,target:'_blank',rel:'noopener'},
-      el('div',{class:'pct',text: d.pct? '−'+Math.round(d.pct)+'%':'UAU'}),
+    list.slice(0,shown).forEach(d=>box.append(el('a',{class:'deal',href:d.url,target:'_blank',rel:'noopener'},
+      el('div',{class:'pct'+(d.pct?'':' bf'),text: d.pct? '−'+Math.round(d.pct)+'%':'BF'}),
       el('div',{}, el('div',{text:d.name}), el('div',{class:'meta',text: shopName(d.shop)+' · '+d.cat + (d.note? ' · '+d.note:'')})),
       el('div',{class:'pr'}, el('div',{text:km(d.price)}), d.old? el('span',{class:'old',text:km(d.old)}):null)
     )));
   }
-  ['#q','#cat','#shop','#sort'].forEach(s=>$(s).addEventListener('input',renderDeals));
+  ['#q','#cat','#shop','#sort','#minpct','#maxprice'].forEach(s=>$(s).addEventListener('input',()=>renderDeals()));
+  $('#more').addEventListener('click',()=>{ shown+=PAGE; renderDeals(false); });
   renderDeals();
 
   // footer

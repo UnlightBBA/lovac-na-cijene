@@ -1,0 +1,38 @@
+19446-mobilna-tehnologija.nspx|Smartwatch Fuego HKY15|39.9|109.9|M
+19446-mobilna-tehnologija.nspx|Smartwatch Fuego HKY16|49.9|129.9|M
+19446-mobilna-tehnologija.nspx|Bluetooth slušalice Fuego TWS T13Pro bijele|19.9|44.9|M
+19978-mali-kucanski-aparati.nspx|Aparat za kafu Fuego EM615|89.9|189.9|K
+19446-mobilna-tehnologija.nspx|Smart tag Canyon Ontag 1 (iOS)|19.9|39.9|M
+19446-mobilna-tehnologija.nspx|Bluetooth zvučnik Fuego KA19|29.9|59.9|T
+19978-mali-kucanski-aparati.nspx|Štapni usisivač Electrolux EP71UB14DB|349.9|699.9|K
+19978-mali-kucanski-aparati.nspx|Štapni usisivač Rowenta X-Force Flex 15.60 Aqua RH99G1WO|759.9|1495.9|K
+19978-mali-kucanski-aparati.nspx|Štapni usisivač Rowenta X-Force Flex 15.60 Aqua RH99G3WO|899.9|1695.9|K
+19978-mali-kucanski-aparati.nspx|Friteza na vrući zrak Electrolux EAF5B|174.9|329|K
+19978-mali-kucanski-aparati.nspx|Štapni usisivač Rowenta X-Clean GZ2271E0 (mokro/suho)|473.9|879.9|K
+19446-mobilna-tehnologija.nspx|Tablet Samsung Galaxy Tab A9 LTE X115|299.9|549.9|M
+19978-mali-kucanski-aparati.nspx|Robot usisivač Kärcher RCV 2|389.9|699|K
+19978-mali-kucanski-aparati.nspx|Kuhalo za vodu Russell Hobbs Compact|89.95|159.9|K
+19978-mali-kucanski-aparati.nspx|Aparat za kafu DeLonghi ECAM250.33.TB|569.9|999.9|K
+19978-mali-kucanski-aparati.nspx|Štapni usisivač Electrolux EP72AB21UG|399.9|699.9|K
+19267-tv.nspx|TV Samsung 65" QE65Q8FAA QLED|1199.9|2099.9|T
+19267-tv.nspx|TV Samsung 75" QE75Q8FAA QLED|1999.9|3499.9|T
+19978-mali-kucanski-aparati.nspx|Friteza na vrući zrak Beko FRL 2242 B|119.95|209.9|K
+19267-tv.nspx|TV Samsung 85" QE85Q60DA QLED|2599.9|4449.9|T
+19978-mali-kucanski-aparati.nspx|Aparat za kafu Electrolux E6EC1-6ST|219.95|369.9|K
+19978-mali-kucanski-aparati.nspx|Štapni usisivač Rowenta X-Pert 7.60 RH6A73WO|269.9|449.9|K
+19267-tv.nspx|TV TCL 55" 55P655|599.9|999.9|T
+19267-tv.nspx|TV Samsung 83" QE83S91FA OLED|5999.9|9999.9|T
+19267-tv.nspx|TV Samsung 55" QE55Q7FAA QLED|849.9|1399.9|T
+19267-tv.nspx|TV Samsung 75" QE75Q7F2A QLED|1699.9|2799.9|T
+19267-tv.nspx|TV Samsung 55" QE55Q6FAA QLED|799.9|1299.9|T
+19267-tv.nspx|TV Samsung 50" QE50Q7FAA QLED|779.9|1249.9|T
+19267-tv.nspx|TV LG 65" 65UT91003LA|1299.9|2049.9|T
+19267-tv.nspx|TV Samsung 55" QE55QN85FA Neo QLED|1599.9|2499.9|T
+19267-tv.nspx|TV Samsung 50" UE50U8072F|599.9|929.9|T
+19267-tv.nspx|TV Samsung 55" QE55QN72FAT|1299.9|1999.9|T
+19446-mobilna-tehnologija.nspx|Apple iPad 10.9" (10. gen) Wi-Fi 64GB plavi|849.9|1299.9|M
+19267-tv.nspx|TV Samsung 65" QE65QN85FA Neo QLED|2299.9|3499.9|T
+19267-tv.nspx|TV LG 65" OLED65C41LA|3059.9|4619.9|T
+19267-tv.nspx|TV Samsung 55" QE55Q8FAA QLED|999.9|1499.9|T
+19267-tv.nspx|TV Samsung 43" UE43DU8072|519.9|769.9|T
+19267-tv.nspx|TV Samsung 65" QE65S85FA OLED|2599.9|3799.9|T
