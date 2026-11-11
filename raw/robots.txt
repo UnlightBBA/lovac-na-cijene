@@ -1,0 +1,187 @@
+bigbang|x-p-5000076343/|Xiaomi Robot Vacuum S40 Pro|489.9||
+bigbang|x-p-5000084871/|Xiaomi Robot Vacuum 5 Pro|1089.9|1599|nije na zalihi
+bigbang|x-p-5000084872/|Xiaomi Robot Vacuum S40|329|459|
+bigbang|x-p-5000311987/|Xiaomi Robot Vacuum H50|599.9||
+bigbang|x-p-5000005587/|Xiaomi Robot Vacuum H40|439.9|599|
+bigbang|x-p-5000184580/|Dyson Spot+Scrub Ai|2599.9||
+bigbang|x-p-5000005586/|Xiaomi Robot Vacuum S40C|249.9|399|
+bigbang|x-p-5000084870/|Xiaomi Robot Vacuum 5|849.9||
+bigbang|x-p-21378985/|Xiaomi Robot Vacuum S20 bijeli|409||
+bigbang|x-p-5000051550/|Bosch Spotless Max BCRDW3B|1649|2229|
+bigbang|x-p-5000017413/|Bosch Spotless Advanced+ BCRD2W|1039|1499|
+bigbang|x-p-5000074131/|Philips XU2100/15|799|949|
+bigbang|x-p-5000051548/|Bosch Spotless BCRC1W|809|1119|
+bigbang|x-p-5000277798/|MOVA S70 Pro Roller|1799||
+bigbang|x-p-5000277800/|MOVA E20 Pro Plus|499||
+bigbang|x-p-5000376588/|MOVA E40 Ultra|999||
+bigbang|x-p-5000277799/|MOVA V50 Ultra Complete|2399||
+bigbang|x-p-20390430/|Rowenta X-Plorer RR8577WH|749||
+bigbang|x-p-21504248/|Philips XU2000/10|599||
+bigbang|x-p-701581/|Rowenta RR7375WH|529.9||
+bigbang|x-p-5000193543/|MOVA Mobius 60|2999||
+bigbang|x-p-5000193538/|MOVA E20S Pro|399||
+bigbang|x-p-20522666/|Rowenta X-Plorer 120 S AI RR7877WH|549||
+bigbang|x-p-5000264858/|MOVA Z60 Ultra Roller Complete|2799||
+bigbang|x-p-5000228878/|AENO RC5S|799||
+bigbang|x-p-21361057/|Rowenta X-Plorer 75 S RR8567WH|799||
+bigbang|x-p-5000479795/|Xiaomi Robot Vacuum 6 Max|1899.9|2299|
+ekupi|bs/p/EK000820667|Xiaomi Robot Vacuum 5 (20000 Pa, stanica)|849.9|1399|
+ekupi|bs/p/EK000856704|Xiaomi Robot Vacuum H50 Pro|819.9|1139|
+ekupi|bs/p/EK000771254|Xiaomi Robot Vacuum S40|327.9|399|
+ekupi|bs/p/EK000738103|Xiaomi Robot Vacuum H40|419.9|599|
+ekupi|bs/p/EK000771253|Xiaomi Robot Vacuum S40C|277.9|369|
+ekupi|bs/p/EK000861274|Xiaomi Robot Vacuum H50|589.9|789|
+ekupi|bs/p/EK000830961|Roborock Q10 VF+ crni|679.9|1099.9|
+ekupi|bs/p/EK000857760|Roborock Qrevo C Pro crni|1499.9|2229.9|
+ekupi|bs/p/EK000857755|Roborock Q7 BF+ bijeli|299.9|519.9|
+ekupi|bs/p/EK000781820|Ecovacs Deebot Mini|491.65|879|
+ekupi|bs/p/EK000567242|Kärcher RCV 5|902.45|1559.95|
+ekupi|bs/p/EK000593327|Rowenta X-Plorer 75 S RR8567WH|639.9|839|
+ekupi|bs/p/EK000847236|AENO RC5S|759.9|799.9|
+ekupi|bs/p/EK000780176|Bosch Spotless Advanced+ BCRD2W|1012.9|1609|
+ekupi|bs/p/EK000857972|Eufy Omni E25|1199.9|1799|
+ekupi|bs/p/EK000739991|Rowenta X-Plorer Serie 135 RR91C5WH|836.9|1089|
+ekupi|bs/p/EK000856686|Kärcher RVM 4 Comfort Extra|1232.9|1519|
+ekupi|bs/p/EK000780177|Bosch Spotless BCRC1W|786.9|1169|
+ekupi|bs/p/EK000782490|Kärcher RCF 3|1252.9|1669.9|
+ekupi|bs/p/EK000739993|Rowenta X-Plorer Serie 90 RR8777WH|532.9|769|
+ekupi|bs/p/EK000381138|Rowenta RR7375WH|538.9|559|
+ekupi|bs/p/EK000857756|Roborock Qrevo Edge 2 Pro|2799.9|3829.9|
+ekupi|bs/p/EK000784754|Philips XU2100/15|809|1129|
+ekupi|bs/p/EK000865088|Roborock Saros 20|2599.9|4069|
+ekupi|bs/p/EK000739988|Rowenta X-Plorer Serie 85 RR87C5WH|419.9|759|
+ekupi|bs/p/EK000548716|Rowenta X-Plorer 120 S AI RR7877WH|538.9|599|
+ekupi|bs/p/EK000595277|Rowenta X-Plorer RR8577WH|695.9|1198.9|
+ekupi|bs/p/EK000567243|Kärcher RCV 3|836.9|1039.95|
+ekupi|bs/p/EK000639773|Rowenta X-Plorer Serie 70 Animal RR8477WH|373.75|706|
+ekupi|bs/p/EK000381126|Rowenta X-Plorer Serie 50 RR7387WH|504.9|654.9|
+ekupi|bs/p/EK000890809|Xiaomi Robot Vacuum 6 Max|1979|2479|
+ekupi|bs/p/EK000838204|Xiaomi Robot Vacuum S40 Pro|499.9|599|
+ekupi|bs/p/EK000857967|Eufy S1 Pro|1999.9|2999|
+ekupi|bs/p/EK000857975|Eufy Omni E28|1499.9|2099|
+ekupi|bs/p/EK000886830|MOVA E20S Pro (stanica za pražnjenje)|474.05|689|
+ekupi|bs/p/EK000886831|MOVA E40 Ultra|949.05|1369|
+ekupi|bs/p/EK000886832|MOVA S70 Pro Roller|1709.05|2479|
+ekupi|bs/p/EK000886824|MOVA Z60 Ultra Roller Complete|2659.05|3849|
+ekupi|bs/p/EK000886838|MOVA E20S Pro|379.05|549|
+ekupi|bs/p/EK000886834|MOVA V50 Ultra|2279.05|3289|
+ekupi|bs/p/EK000878177|Rowenta X-Plorer Serie 90 RR8797WH|768.9|969|
+ekupi|bs/p/EK000857763|Roborock Qrevo C Pro bijeli|1599.9|2229.9|
+ekupi|bs/p/EK000771958|Sencor SRV 1550WH|192.9|239|
+ekupi|bs/p/EK000907855|Dyson 360 Vis Nav / R1 Nurovi|1205.9|1509|
+ekupi|bs/p/EK000793934|Philips XU2000/15|609|829|
+bingo|proizvod/xiaomi-usisivac-robot-e10-bijeli-35075/6852|Xiaomi Robot Vacuum E10|299.9||
+bingo|proizvod/xiaomi-usisivac-robot-s40c-bhr9664eu-61251/10615|Xiaomi Robot Vacuum S40C|349||
+bingo|proizvod/tesla-robot-usisivac-vcr405bbb-popust/11027|Tesla robot usisivač VCR405BBB|449.95|899.9|uz Bingo naljepnice
+domod|shop/proizvod/rowenta-robotski-usisivac-rr9075wh-x-plorer-serie-130-animal/SEB42599|Rowenta X-Plorer Serie 130 Animal RR9075WH|999||
+domod|shop/proizvod/rr8567wh-rowenta-robot-usisivac-x-plorer-serie-75-s/SEB43312|Rowenta X-Plorer 75 S RR8567WH|799||
+domod|shop/proizvod/beko-robotski-usisivac-vrr-60314-vw/OM9456|Beko VRR 60314 VW|554.45||
+domod|shop/proizvod/vrr-70214-vb-beko-robot-usisivac/OM4758|Beko VRR 70214 VB|865.55||
+domod|shop/proizvod/rvcls144ab-hisense-robot-usisivac/GC740207|Hisense RVCLS144AB|999||
+domod|shop/proizvod/rvcl144abevo-hisense-robot-usisivac/GC744842|Hisense RVCL144ABEVO|599||
+domod|shop/proizvod/philips-robot-usisivac-xu2000-10/ST4125|Philips XU2000/10|699||
+domod|shop/proizvod/x20-xiaomi-robot-usisivac/IR8556|Xiaomi Robot Vacuum X20+|1199||
+domod|shop/proizvod/rowenta-robot-usisivac-x-plorer-serie-85-rr87d5whmjesecciscenjarowenta/SEB3685|Rowenta X-Plorer Serie 85+ RR87D5WH|899||
+domod|shop/proizvod/vrr-84314-vb-beko-robot-usisivac-bekoweb/OM1319|Beko VRR 84314 VB|599||
+domod|shop/proizvod/bcrdw3bx-bosch-robot-usisivac-spotless-max-cam/BSH5805|Bosch Spotless Max Cam BCRDW3BX|1899||
+domod|shop/proizvod/q5-pro-black-roborock-robot-usisivac-5200mah-wifi/DI35680|Roborock Q5 Pro crni|699||
+domod|shop/proizvod/rr95a5e0-rowenta-robot-usisivac-x-plorer-serie-575-max/SEB3904|Rowenta X-Plorer Serie 575 Max RR95A5E0|1399||
+domod|shop/proizvod/rr8985e0-rowenta-robot-usisivac-x-plorer-serie-375/SEB70162|Rowenta X-Plorer Serie 375+ RR8985E0|899||
+domod|shop/proizvod/rr8865e0-rowenta-robot-usisivac-x-plorer-serie-275-standard/SEB0100|Rowenta X-Plorer Serie 275 RR8865E0|659||
+fontele|proizvod/bosch-robotski-usisivac-bcrd2w-bijela/8318|Bosch Spotless Advanced+ BCRD2W|1079.1||Top ponuda
+fontele|proizvod/anker-eufy-robot-usisivac-omni-s1-crna/8688|Eufy Omni S1|1439.1||
+fontele|proizvod/anker-robotski-usisivac-eufy-omni-e25-crna/9086|Eufy Omni E25|1399.5||
+fontele|proizvod/bosch-robotski-usisivac-bcrdw3bx-spotless-max-cam-crna/9410|Bosch Spotless Max Cam BCRDW3BX|1799.1||
+fontele|proizvod/xiaomi-robot-usisivac-h50-pro-bijela/9601|Xiaomi Robot Vacuum H50 Pro|799.2||
+fontele|proizvod/xiaomi-robot-usisivac-e10-eu-bijeli/2881|Xiaomi Robot Vacuum E10|315||Hit cijena
+fontele|proizvod/hisense-robotski-usisivac-rvcls144ab-crni/6722|Hisense RVCLS144AB|764.1||
+fontele|proizvod/xiaomi-robotski-usisivac-5-bhr0834eu-bijeli/8379|Xiaomi Robot Vacuum 5|1099.8||
+fontele|proizvod/anker-robot-usisivac-eufy-x10-pro-omni-crna/8694|Eufy X10 Pro Omni|1169.1||
+fontele|proizvod/hisense-robotski-usisivac-rvcl144abevo-crni/6663|Hisense RVCL144ABEVO|809.1||
+fontele|proizvod/xiaomi-robotski-usisivac-s40-c-bijeli/7873|Xiaomi Robot Vacuum S40C|339.3||Top ponuda
+fontele|proizvod/xiaomi-robotski-usisivac-h40-bijeli/7874|Xiaomi Robot Vacuum H40|459||Hit cijena
+fontele|proizvod/xiaomi-robotski-usisivac-h50-bijeli/8943|Xiaomi Robot Vacuum H50|599.4||
+fontele|proizvod/xiaomi-robot-usisivac-6/9945|Xiaomi Robot Vacuum 6|1199.7||
+fontele|proizvod/xiaomi-robot-usisivac-6-pro/9946|Xiaomi Robot Vacuum 6 Pro|1529.1||
+fontele|proizvod/xiaomi-robot-usisivac-6-max/9947|Xiaomi Robot Vacuum 6 Max|1799.1||
+ananas|proizvod/xplorer-robot-usisvac-lx100/7170676|Xplorer LX100|329|449|Ananas Shop
+ananas|proizvod/beko-robot-usisivac-vrr-62514-vb-3-200-mah-0-34l-crni/6757177|Beko VRR 62514 VB|449.25|599|Omega Shop
+ananas|proizvod/karcher-robot-usisivac-rcf-3/5494639|Kärcher RCF 3|1189.9|1620|Ananas Shop
+ananas|proizvod/xiaomi-robotski-usisivac-s40c-eu/4825899|Xiaomi Robot Vacuum S40C|249.9||Ananas Shop
+ananas|proizvod/xiaomi-robotski-usisivac-s40-pro-pametni-usisivac/5355949|Xiaomi Robot Vacuum S40 Pro|483.9||Digitalis
+ananas|proizvod/zilan-zln5500-robot-usisavac-sa-stanicom-za-praznjenje/3514734|Zilan ZLN5500 sa stanicom|479.9|749.9|Digitalis
+ananas|proizvod/redline-robot-usisavac-baterija-5200-mah-wifi-g2-robored-crni/1986161|Redline G2 RoboRed|359.9|749.9|Digitalis
+ananas|proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-qr798-5200mah-10000-pa-bijeli/7319948|Roborock QR798 sa stanicom|999.9|1249|Mobilmedia
+ananas|proizvod/xiaomi-robotski-usisivac-h50-pro-6000-pa-5200-mah-bijeli/7237615|Xiaomi Robot Vacuum H50 Pro|869.9||Digitalis
+ananas|proizvod/rowenta-robotski-usisivac-rr87c5wh/5977277|Rowenta X-Plorer Serie 85 RR87C5WH|329|679|Ananas Shop
+ananas|proizvod/xiaomi-robot-usisivac-mop-e5-eu-400-ml-2600mah-bijeli/2339662|Xiaomi Robot Vacuum E5|179|262.4|Digitalis
+ananas|proizvod/xiaomi-robot-usisivac-s40-10000-pa/6451917|Xiaomi Robot Vacuum S40|329||Univerzalno
+ananas|proizvod/xiaomi-robot-usisivac-5-20000-pa-stanica-za-ciscenje/6451967|Xiaomi Robot Vacuum 5|1049||Univerzalno
+ananas|proizvod/xiaomi-robot-usisivac-5-pro-bhr07wfeu-20000-pa-stanica-za-ciscenje-beli/5150099|Xiaomi Robot Vacuum 5 Pro|1299||Digitalis
+ananas|proizvod/karcher-robot-usisivac-rcv-2-4000-pa-bijeli/3430043|Kärcher RCV 2|389.9|699|Neptun
+ananas|proizvod/xiaomi-robot-usisivac-mi-mop-e10c-crni/2763157|Xiaomi Robot Vacuum E10C|269.9|337.4|Digitalis
+ananas|proizvod/beko-vrr-50414-vw-robot-usisivac-2000ma-100-minuta-2l-bijeli/6707785|Beko VRR 50414 VW|215.2|269|Tehnodepo
+ananas|proizvod/philips-robot-usisivac-xu2100-15-teget/4860713|Philips XU2100/15|809||Ananas Shop
+ananas|proizvod/xiaomi-usisivac-robot-mi-vacuum-x10-eu/5371601|Xiaomi Mi Vacuum X10|868.7|1022|Tehno Plus
+ananas|proizvod/mova-robot-usisivac-e40-ultra-19000pa-0-3l-bijeli/7055497|MOVA E40 Ultra|999||Univerzalno
+ananas|proizvod/karcher-robot-usisivac-rcv-3-bijeli/3411465|Kärcher RCV 3|699.95|889.9|Neptun
+ananas|proizvod/mova-robot-usisivac-s70-pro-30000pa-0-24l-bijeli/7055500|MOVA S70 Pro Roller|1799||Univerzalno
+ananas|proizvod/xiaomi-robot-usisivac-h40-70w-10000pa-bijeli/7055439|Xiaomi Robot Vacuum H40|489||Univerzalno
+ananas|proizvod/anker-robot-usisivac-eufy-2-2l-crni/7035946|Eufy Omni E28|1199|1521.7|Ananas Shop
+ananas|proizvod/karcher-robot-usisivac-i-brisac-rvc-3-eu-15-000-pa-2-6-ah-bijeli/7037404|Kärcher RVC 3 (usisivač i brisač)|499.9||Maheri
+ananas|proizvod/bosch-robot-usisivac-spotless-advanced-bcrd2w/6452010|Bosch Spotless Advanced+ BCRD2W|1224||Univerzalno
+ananas|proizvod/karcher-robot-usisivac-rvm-4-comfort-extra-15000-pa-5200-mah-bijeli/7192082|Kärcher RVM 4 Comfort Extra|1300||Motor Remont
+ananas|proizvod/anker-robot-usisivac-eufy-30000pa-3l-sivi/7035975|Eufy S1 Pro|2999|3864|Ananas Shop
+ananas|proizvod/anker-robot-usisivac-omni-s2-eufy-30000-pa-hydrojet-2-0-samocisteci-mop-elektrolizovana-voda-crni/6961545|Eufy Omni S2|2831||Univerzalno
+ananas|proizvod/sencor-srv-robot-usisivac-1550wh-bjela/4819504|Sencor SRV 1550WH|280|350|Tehnodepo
+ananas|proizvod/beko-robot-usisivac-vrr-70214-vb-crni/1958545|Beko VRR 70214 VB|545.3|779|Omega Shop
+ananas|proizvod/karcher-robot-usisivac-rvc-3-komfort-extra-15-000-pa-2-6-ah-bijeli/7161865|Kärcher RVC 3 Comfort Extra|699.9||Motor Remont
+ananas|proizvod/beko-robot-usisivac-vrr-52514-vb-3-200-mah-0-4l-crni/6757176|Beko VRR 52514 VB|499||Omega Shop
+ananas|proizvod/rowenta-robot-usisivac-x-plorer-120-s-ai-2700pa-100-240v-bijeli/6349298|Rowenta X-Plorer 120 S AI RR7877WH|543||Univerzalno
+ananas|proizvod/aeno-robot-usisivac-rc5s-2u1-4000pa-3200mah-crni/6349289|AENO RC5S|673||Univerzalno
+ananas|proizvod/karcher-robot-usisivac-rcv-5-bijeli/6323779|Kärcher RCV 5|989.9|1209.9|Prana
+ananas|proizvod/tp-link-robot-usisivac-sa-mopom-tapo-rv30-max-plus-crni/6294249|TP-Link Tapo RV30 Max Plus|711.75||Megatron
+ananas|proizvod/rowenta-robot-usisivac-rr7375-crni/3698802|Rowenta RR7375WH|496.9|639|Ananas Shop
+ananas|proizvod/total-usisivac-robot-tvcrg30261-bijeli/3148255|Total TVCRG30261|357|420|Tehno Plus
+ananas|proizvod/mova-robot-usisivac-v50-ultra-24000pa-3-2l-bijeli/7055503|MOVA V50 Ultra|2399||Univerzalno
+ananas|proizvod/tp-link-robot-usisivac-tapo-rv20-max-5300pa-100-240-v-0-3l-bijeli/6192536|TP-Link Tapo RV20 Max|507.9|646|Ananas Shop
+ananas|proizvod/bosch-robot-usisivac-spotless-bcrc1w/6452025|Bosch Spotless BCRC1W|950||Univerzalno
+ananas|proizvod/eufy-robot-usisivac-x10-pro-omni-crni/6451961|Eufy X10 Pro Omni|1492||Univerzalno
+ananas|proizvod/eufy-robot-usisivac-omni-e25-20000pa-crni/6349262|Eufy Omni E25|1621||Univerzalno
+ananas|proizvod/rowenta-robot-usisivac-75s-bijeli/4144180|Rowenta X-Plorer 75 S RR8567WH|589.9|775|Ananas Shop
+ananas|proizvod/mova-robot-usisivac-z60-ultra-28000-0-21l-crni/7055502|MOVA Z60 Ultra Roller Complete|2799||Univerzalno
+ananas|proizvod/anker-robot-usisivac-omni-c28-eufy-15000-pa-hydrojet-samocisteci-mop-5-u-1-omni-stanica-crni/6961526|Eufy Omni C28|1136||Univerzalno
+ananas|proizvod/aeno-rc2s-robot-usisivac-3000-mah-bijeli/6647429|AENO RC2S|520||Omega Shop
+ananas|proizvod/anker-robot-usisivac-eufy-omni-e25-crni/6544990|Eufy Omni E25|1369|1799|Start.ba
+ananas|proizvod/rowenta-robot-usisivac-x-plorer-rr8577wh/6452017|Rowenta X-Plorer RR8577WH|675||Univerzalno
+ananas|proizvod/xiaomi-robot-usisivac-mop-pro-crni/5494555|Xiaomi Robot Vacuum Mop Pro|629||Ekutak
+ananas|proizvod/rowenta-robot-usisivac-rr7877wh/3283184|Rowenta X-Plorer 120 S AI RR7877WH|496.9|639|Ananas Shop
+ananas|proizvod/rowenta-robot-usisivac-rr8577-bijeli/3698756|Rowenta X-Plorer RR8577WH|632.9|779|Ananas Shop
+ananas|proizvod/beko-robot-usisivac-vrr-80314-vb/2427923|Beko VRR 80314 VB|559.2|699|Omega Shop
+ananas|proizvod/xiaomi-robotski-usisivac-h40-eu-bhr07xbeu-bijela/4825686|Xiaomi Robot Vacuum H40|446.9||Ananas Shop
+ananas|proizvod/xiaomi-robotski-usisivac-h50-4000-pa-3200-mah-bijeli/7327509|Xiaomi Robot Vacuum H50|584.1||Ananas Shop
+ananas|proizvod/xiaomi-robotski-usisivac-mi-vacuum-6-max-70-w-crni/7327539|Xiaomi Robot Vacuum 6 Max|2069.1|2299|Ananas Shop
+ananas|proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-q7bf-3200mah-8-000-pa-crni/5014634|Roborock Q7 BF+|595|874.9|Digitalis
+ananas|proizvod/xiaomi-robotski-usisivac-5-bhr0834eu/5150093|Xiaomi Robot Vacuum 5|1044|1499.9|Digitalis
+ananas|proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-qr798-5200mah-10000-pa-bijeli/5014621|Roborock QR798 sa stanicom|1199.9|1999.9|Digitalis
+ananas|proizvod/dreame-robotski-usisivac-l50s-pro-ultra-30000-pa-5-200-mah-2-u-1-crni/7003643|Dreame L50s Pro Ultra|1899||eStyle
+ananas|proizvod/midea-i2a-robot-usisavac/3514724|Midea I2A|249.9|312.4|Digitalis
+ananas|proizvod/roborock-robot-usisavac-qrevo-c-pro-black-sa-stanicom-za-praznjenje-5200-mah-18500-pa/6010651|Roborock Qrevo C Pro crni|1799.9|2249.9|Digitalis
+ananas|proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-saros-10r-black-6400-mah-wifi-crni/4226508|Roborock Saros 10R|2699.9|4374.9|Digitalis
+ananas|proizvod/roborock-robot-usisavac-qrevo-edge-2-pro-sa-stanicom-za-praznjenje-6400-mah-25000-pa/6010664|Roborock Qrevo Edge 2 Pro|2799|3749.9|Digitalis
+ananas|proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-q10-vf-5200mah-10000-pa-crni/5014633|Roborock Q10 VF+ crni|899.9|1374.9|Digitalis
+ananas|proizvod/floria-zln1948-robot-usisavac/3514743|Floria ZLN1948|149.9|187.4|Digitalis
+ananas|proizvod/xiaomi-mi-x10-eu-robotski-usisivac-1200-w/2919133|Xiaomi Mi Vacuum X10|639.9|799.9|Digitalis
+ananas|proizvod/sencor-robotski-usavac-srv-1550-wh/2647475|Sencor SRV 1550WH|189|209|Superponuda
+ananas|proizvod/roborock-robot-usisavac-q10-vf-5200mah-10000-pa-crni/5014622|Roborock Q10 VF (bez stanice)|749.9|999.9|Digitalis
+ananas|proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-qrevo-5ae-5200mah-12000-pa-bijeli/5014619|Roborock Qrevo 5AE|1799.9|2249.9|Digitalis
+ananas|proizvod/roborock-robotski-usisivac-saros-z70-bijela-boja/5130850|Roborock Saros Z70|3999.9|4999.9|Digitalis
+ananas|proizvod/eufy-robotski-usisivac-sa-stanicom-x10-pro-omni-b2b-t2351g11/5512254|Eufy X10 Pro Omni|1599|1989|Ananas Shop
+ananas|proizvod/anker-robotski-usisivac-eufy-omni-e28/6544993|Eufy Omni E28|1399|2395|Start.ba
+ananas|proizvod/xiaomi-mi-mop-s10-robotski-usisivac-bijeli/4284761|Xiaomi Mi Robot Vacuum Mop S10|379||Omega Shop
+ananas|proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-q7-tf-3200mah-10-000-pa-crni/7416617|Roborock Q7 TF+|595|743.75|Digitalis
+ananas|proizvod/roborock-robot-usisavac-s7-5200-mah-alexa-google-home-bijeli/4502260|Roborock S7|799|998.75|Digitalis
+ananas|proizvod/electrolux-robotski-usisivac-800-er81uw3sw-suho-i-mokro-ciscenje-all-in-1-stanica-208-min-bijeli/7005280|Electrolux 800 ER81UW3SW|1339|1399|Ananas Shop
+ananas|proizvod/bosch-robotski-usisivac-bcrd2w-spotless-advanced-bijela-boja/5001410|Bosch Spotless Advanced+ BCRD2W|1147.9|1493|Ananas Shop
+ananas|proizvod/xiaomi-robotski-usisivac-vacuum-s40-bijela-boja/4998504|Xiaomi Robot Vacuum S40|369||Genelec
+ananas|proizvod/karcher-robot-usisivac-rcf-3/6323778|Kärcher RCF 3|1189.9|1485|Prana

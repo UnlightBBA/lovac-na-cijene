@@ -1,5 +1,5 @@
 window.DEALS = {
- "updated": "2026-11-11T09:30:00Z",
+ "updated": "2026-11-11T10:00:00Z",
  "eurToKm": 1.95583,
  "blackFriday": "2026-11-27",
  "shops": {
@@ -3925,6 +3925,10 @@ window.DEALS = {
   {
    "t": "2026-11-11T09:30:00Z",
    "msg": "Proširena lista popusta: 382 artikala iz 8 prodavnica (Big Bang, eKupi, Ananas, Bingo, Neptun, Domod, fonTELe, Procomp)."
+  },
+  {
+   "t": "2026-11-11T10:00:00Z",
+   "msg": "Dodano izdvojeno: robotski usisivači – 102 modela, 187 ponuda iz 6 prodavnica."
   }
  ],
  "noShop": [
@@ -3935,6 +3939,3024 @@ window.DEALS = {
   {
    "name": "Robot",
    "why": "nema web shop – samo katalog i sedmične akcije u prodavnicama"
+  }
+ ],
+ "featured": [
+  {
+   "id": "robotski-usisivaci",
+   "title": "Robotski usisivači",
+   "groups": [
+    {
+     "name": "Floria ZLN1948",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Floria ZLN1948",
+       "price": 149.9,
+       "old": 187.4,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/floria-zln1948-robot-usisavac/3514743",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Floria",
+     "id": "rv-floria-zln1948",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 149.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum E5",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum E5",
+       "price": 179.0,
+       "old": 262.4,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robot-usisivac-mop-e5-eu-400-ml-2600mah-bijeli/2339662",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-e5",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 179.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Sencor SRV 1550WH",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Sencor SRV 1550WH",
+       "price": 189.0,
+       "old": 209.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/sencor-robotski-usavac-srv-1550-wh/2647475",
+       "note": "Prodavač: Superponuda"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Sencor SRV 1550WH",
+       "price": 192.9,
+       "old": 239.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000771958"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Sencor SRV 1550WH",
+       "price": 280.0,
+       "old": 350.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/sencor-srv-robot-usisivac-1550wh-bjela/4819504",
+       "note": "Prodavač: Tehnodepo"
+      }
+     ],
+     "brand": "Sencor",
+     "id": "rv-sencor-srv-1550wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 189.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Beko VRR 50414 VW",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Beko VRR 50414 VW",
+       "price": 215.2,
+       "old": 269.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/beko-vrr-50414-vw-robot-usisivac-2000ma-100-minuta-2l-bijeli/6707785",
+       "note": "Prodavač: Tehnodepo"
+      }
+     ],
+     "brand": "Beko",
+     "id": "rv-beko-vrr-50414-vw",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 215.2,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum S40C",
+     "offers": [
+      {
+       "shop": "bigbang",
+       "variant": "Xiaomi Robot Vacuum S40C",
+       "price": 249.9,
+       "old": 399.0,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000005586/"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum S40C",
+       "price": 249.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robotski-usisivac-s40c-eu/4825899",
+       "note": "Prodavač: Ananas Shop"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Xiaomi Robot Vacuum S40C",
+       "price": 277.9,
+       "old": 369.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000771253"
+      },
+      {
+       "shop": "fontele",
+       "variant": "Xiaomi Robot Vacuum S40C",
+       "price": 339.3,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/xiaomi-robotski-usisivac-s40-c-bijeli/7873",
+       "note": "Top ponuda"
+      },
+      {
+       "shop": "bingo",
+       "variant": "Xiaomi Robot Vacuum S40C",
+       "price": 349.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://bingoshop.ba/proizvod/xiaomi-usisivac-robot-s40c-bhr9664eu-61251/10615"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-s40c",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 249.9,
+       "shop": "bigbang"
+      }
+     ]
+    },
+    {
+     "name": "Midea I2A",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Midea I2A",
+       "price": 249.9,
+       "old": 312.4,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/midea-i2a-robot-usisavac/3514724",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Midea",
+     "id": "rv-midea-i2a",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 249.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum E10C",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum E10C",
+       "price": 269.9,
+       "old": 337.4,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robot-usisivac-mi-mop-e10c-crni/2763157",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-e10c",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 269.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Q7 BF+",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Roborock Q7 BF+ bijeli",
+       "price": 299.9,
+       "old": 519.9,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000857755"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Roborock Q7 BF+",
+       "price": 595.0,
+       "old": 874.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-q7bf-3200mah-8-000-pa-crni/5014634",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-q7-bf",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 299.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum E10",
+     "offers": [
+      {
+       "shop": "bingo",
+       "variant": "Xiaomi Robot Vacuum E10",
+       "price": 299.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://bingoshop.ba/proizvod/xiaomi-usisivac-robot-e10-bijeli-35075/6852"
+      },
+      {
+       "shop": "fontele",
+       "variant": "Xiaomi Robot Vacuum E10",
+       "price": 315.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/xiaomi-robot-usisivac-e10-eu-bijeli/2881",
+       "note": "Hit cijena"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-e10",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 299.9,
+       "shop": "bingo"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum S40",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Xiaomi Robot Vacuum S40",
+       "price": 327.9,
+       "old": 399.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000771254"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Xiaomi Robot Vacuum S40",
+       "price": 329.0,
+       "old": 459.0,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000084872/"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum S40",
+       "price": 329.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robot-usisivac-s40-10000-pa/6451917",
+       "note": "Prodavač: Univerzalno"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum S40",
+       "price": 369.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robotski-usisivac-vacuum-s40-bijela-boja/4998504",
+       "note": "Prodavač: Genelec"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-s40",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 327.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer Serie 85 RR87C5WH",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Rowenta X-Plorer Serie 85 RR87C5WH",
+       "price": 329.0,
+       "old": 679.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/rowenta-robotski-usisivac-rr87c5wh/5977277",
+       "note": "Prodavač: Ananas Shop"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Rowenta X-Plorer Serie 85 RR87C5WH",
+       "price": 419.9,
+       "old": 759.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000739988"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-serie-85-rr87c5wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 329.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Xplorer LX100",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Xplorer LX100",
+       "price": 329.0,
+       "old": 449.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xplorer-robot-usisvac-lx100/7170676",
+       "note": "Prodavač: Ananas Shop"
+      }
+     ],
+     "brand": "Xplorer",
+     "id": "rv-xplorer-lx100",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 329.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Total TVCRG30261",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Total TVCRG30261",
+       "price": 357.0,
+       "old": 420.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/total-usisivac-robot-tvcrg30261-bijeli/3148255",
+       "note": "Prodavač: Tehno Plus"
+      }
+     ],
+     "brand": "Total",
+     "id": "rv-total-tvcrg30261",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 357.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Redline G2 RoboRed",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Redline G2 RoboRed",
+       "price": 359.9,
+       "old": 749.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/redline-robot-usisavac-baterija-5200-mah-wifi-g2-robored-crni/1986161",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Redline",
+     "id": "rv-redline-g2-robored",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 359.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer Serie 70 Animal RR8477WH",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Rowenta X-Plorer Serie 70 Animal RR8477WH",
+       "price": 373.75,
+       "old": 706.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000639773"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-serie-70-animal-rr8477wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 373.75,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Mi Robot Vacuum Mop S10",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Mi Robot Vacuum Mop S10",
+       "price": 379.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-mi-mop-s10-robotski-usisivac-bijeli/4284761",
+       "note": "Prodavač: Omega Shop"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-mi-robot-vacuum-mop-s10",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 379.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "MOVA E20S Pro",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "MOVA E20S Pro",
+       "price": 379.05,
+       "old": 549.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000886838"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "MOVA E20S Pro",
+       "price": 399.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000193538/"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "MOVA E20S Pro (stanica za pražnjenje)",
+       "price": 474.05,
+       "old": 689.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000886830"
+      }
+     ],
+     "brand": "MOVA",
+     "id": "rv-mova-e20s-pro",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 379.05,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Kärcher RCV 2",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Kärcher RCV 2",
+       "price": 389.9,
+       "old": 699.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/karcher-robot-usisivac-rcv-2-4000-pa-bijeli/3430043",
+       "note": "Prodavač: Neptun"
+      }
+     ],
+     "brand": "Kärcher",
+     "id": "rv-k-rcher-rcv-2",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 389.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum S20",
+     "offers": [
+      {
+       "shop": "bigbang",
+       "variant": "Xiaomi Robot Vacuum S20 bijeli",
+       "price": 409.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-21378985/"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-s20",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 409.0,
+       "shop": "bigbang"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum H40",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Xiaomi Robot Vacuum H40",
+       "price": 419.9,
+       "old": 599.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000738103"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Xiaomi Robot Vacuum H40",
+       "price": 439.9,
+       "old": 599.0,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000005587/"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum H40",
+       "price": 446.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robotski-usisivac-h40-eu-bhr07xbeu-bijela/4825686",
+       "note": "Prodavač: Ananas Shop"
+      },
+      {
+       "shop": "fontele",
+       "variant": "Xiaomi Robot Vacuum H40",
+       "price": 459.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/xiaomi-robotski-usisivac-h40-bijeli/7874",
+       "note": "Hit cijena"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum H40",
+       "price": 489.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robot-usisivac-h40-70w-10000pa-bijeli/7055439",
+       "note": "Prodavač: Univerzalno"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-h40",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 419.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Beko VRR 62514 VB",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Beko VRR 62514 VB",
+       "price": 449.25,
+       "old": 599.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/beko-robot-usisivac-vrr-62514-vb-3-200-mah-0-34l-crni/6757177",
+       "note": "Prodavač: Omega Shop"
+      }
+     ],
+     "brand": "Beko",
+     "id": "rv-beko-vrr-62514-vb",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 449.25,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Tesla robot usisivač VCR405BBB",
+     "offers": [
+      {
+       "shop": "bingo",
+       "variant": "Tesla robot usisivač VCR405BBB",
+       "price": 449.95,
+       "old": 899.9,
+       "inStock": true,
+       "url": "https://bingoshop.ba/proizvod/tesla-robot-usisivac-vcr405bbb-popust/11027",
+       "note": "uz Bingo naljepnice"
+      }
+     ],
+     "brand": "Tesla",
+     "id": "rv-tesla-robot-usisiva-vcr405bbb",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 449.95,
+       "shop": "bingo"
+      }
+     ]
+    },
+    {
+     "name": "Zilan ZLN5500 sa stanicom",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Zilan ZLN5500 sa stanicom",
+       "price": 479.9,
+       "old": 749.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/zilan-zln5500-robot-usisavac-sa-stanicom-za-praznjenje/3514734",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Zilan",
+     "id": "rv-zilan-zln5500-sa-stanicom",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 479.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum S40 Pro",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum S40 Pro",
+       "price": 483.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robotski-usisivac-s40-pro-pametni-usisivac/5355949",
+       "note": "Prodavač: Digitalis"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Xiaomi Robot Vacuum S40 Pro",
+       "price": 489.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000076343/"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Xiaomi Robot Vacuum S40 Pro",
+       "price": 499.9,
+       "old": 599.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000838204"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-s40-pro",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 483.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Ecovacs Deebot Mini",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Ecovacs Deebot Mini",
+       "price": 491.65,
+       "old": 879.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000781820"
+      }
+     ],
+     "brand": "Ecovacs",
+     "id": "rv-ecovacs-deebot-mini",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 491.65,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta RR7375WH",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Rowenta RR7375WH",
+       "price": 496.9,
+       "old": 639.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/rowenta-robot-usisivac-rr7375-crni/3698802",
+       "note": "Prodavač: Ananas Shop"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Rowenta RR7375WH",
+       "price": 529.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-701581/"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Rowenta RR7375WH",
+       "price": 538.9,
+       "old": 559.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000381138"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-rr7375wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 496.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer 120 S AI RR7877WH",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Rowenta X-Plorer 120 S AI RR7877WH",
+       "price": 496.9,
+       "old": 639.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/rowenta-robot-usisivac-rr7877wh/3283184",
+       "note": "Prodavač: Ananas Shop"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Rowenta X-Plorer 120 S AI RR7877WH",
+       "price": 538.9,
+       "old": 599.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000548716"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Rowenta X-Plorer 120 S AI RR7877WH",
+       "price": 543.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/rowenta-robot-usisivac-x-plorer-120-s-ai-2700pa-100-240v-bijeli/6349298",
+       "note": "Prodavač: Univerzalno"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Rowenta X-Plorer 120 S AI RR7877WH",
+       "price": 549.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-20522666/"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-120-s-ai-rr7877wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 496.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "MOVA E20 Pro Plus",
+     "offers": [
+      {
+       "shop": "bigbang",
+       "variant": "MOVA E20 Pro Plus",
+       "price": 499.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000277800/"
+      }
+     ],
+     "brand": "MOVA",
+     "id": "rv-mova-e20-pro-plus",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 499.0,
+       "shop": "bigbang"
+      }
+     ]
+    },
+    {
+     "name": "Beko VRR 52514 VB",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Beko VRR 52514 VB",
+       "price": 499.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/beko-robot-usisivac-vrr-52514-vb-3-200-mah-0-4l-crni/6757176",
+       "note": "Prodavač: Omega Shop"
+      }
+     ],
+     "brand": "Beko",
+     "id": "rv-beko-vrr-52514-vb",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 499.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Kärcher RVC 3 (usisivač i brisač)",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Kärcher RVC 3 (usisivač i brisač)",
+       "price": 499.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/karcher-robot-usisivac-i-brisac-rvc-3-eu-15-000-pa-2-6-ah-bijeli/7037404",
+       "note": "Prodavač: Maheri"
+      }
+     ],
+     "brand": "Kärcher",
+     "id": "rv-k-rcher-rvc-3",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 499.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer Serie 50 RR7387WH",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Rowenta X-Plorer Serie 50 RR7387WH",
+       "price": 504.9,
+       "old": 654.9,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000381126"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-serie-50-rr7387wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 504.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "TP-Link Tapo RV20 Max",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "TP-Link Tapo RV20 Max",
+       "price": 507.9,
+       "old": 646.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/tp-link-robot-usisivac-tapo-rv20-max-5300pa-100-240-v-0-3l-bijeli/6192536",
+       "note": "Prodavač: Ananas Shop"
+      }
+     ],
+     "brand": "TP-Link",
+     "id": "rv-tp-link-tapo-rv20-max",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 507.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "AENO RC2S",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "AENO RC2S",
+       "price": 520.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/aeno-rc2s-robot-usisivac-3000-mah-bijeli/6647429",
+       "note": "Prodavač: Omega Shop"
+      }
+     ],
+     "brand": "AENO",
+     "id": "rv-aeno-rc2s",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 520.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer Serie 90 RR8777WH",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Rowenta X-Plorer Serie 90 RR8777WH",
+       "price": 532.9,
+       "old": 769.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000739993"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-serie-90-rr8777wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 532.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Beko VRR 70214 VB",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Beko VRR 70214 VB",
+       "price": 545.3,
+       "old": 779.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/beko-robot-usisivac-vrr-70214-vb-crni/1958545",
+       "note": "Prodavač: Omega Shop"
+      },
+      {
+       "shop": "domod",
+       "variant": "Beko VRR 70214 VB",
+       "price": 865.55,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/vrr-70214-vb-beko-robot-usisivac/OM4758"
+      }
+     ],
+     "brand": "Beko",
+     "id": "rv-beko-vrr-70214-vb",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 545.3,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Beko VRR 60314 VW",
+     "offers": [
+      {
+       "shop": "domod",
+       "variant": "Beko VRR 60314 VW",
+       "price": 554.45,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/beko-robotski-usisivac-vrr-60314-vw/OM9456"
+      }
+     ],
+     "brand": "Beko",
+     "id": "rv-beko-vrr-60314-vw",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 554.45,
+       "shop": "domod"
+      }
+     ]
+    },
+    {
+     "name": "Beko VRR 80314 VB",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Beko VRR 80314 VB",
+       "price": 559.2,
+       "old": 699.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/beko-robot-usisivac-vrr-80314-vb/2427923",
+       "note": "Prodavač: Omega Shop"
+      }
+     ],
+     "brand": "Beko",
+     "id": "rv-beko-vrr-80314-vb",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 559.2,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum H50",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum H50",
+       "price": 584.1,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robotski-usisivac-h50-4000-pa-3200-mah-bijeli/7327509",
+       "note": "Prodavač: Ananas Shop"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Xiaomi Robot Vacuum H50",
+       "price": 589.9,
+       "old": 789.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000861274"
+      },
+      {
+       "shop": "fontele",
+       "variant": "Xiaomi Robot Vacuum H50",
+       "price": 599.4,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/xiaomi-robotski-usisivac-h50-bijeli/8943"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Xiaomi Robot Vacuum H50",
+       "price": 599.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000311987/"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-h50",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 584.1,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer 75 S RR8567WH",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Rowenta X-Plorer 75 S RR8567WH",
+       "price": 589.9,
+       "old": 775.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/rowenta-robot-usisivac-75s-bijeli/4144180",
+       "note": "Prodavač: Ananas Shop"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Rowenta X-Plorer 75 S RR8567WH",
+       "price": 639.9,
+       "old": 839.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000593327"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Rowenta X-Plorer 75 S RR8567WH",
+       "price": 799.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-21361057/"
+      },
+      {
+       "shop": "domod",
+       "variant": "Rowenta X-Plorer 75 S RR8567WH",
+       "price": 799.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/rr8567wh-rowenta-robot-usisivac-x-plorer-serie-75-s/SEB43312"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-75-s-rr8567wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 589.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Q7 TF+",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Roborock Q7 TF+",
+       "price": 595.0,
+       "old": 743.75,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-q7-tf-3200mah-10-000-pa-crni/7416617",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-q7-tf",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 595.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Philips XU2000/10",
+     "offers": [
+      {
+       "shop": "bigbang",
+       "variant": "Philips XU2000/10",
+       "price": 599.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-21504248/"
+      },
+      {
+       "shop": "domod",
+       "variant": "Philips XU2000/10",
+       "price": 699.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/philips-robot-usisivac-xu2000-10/ST4125"
+      }
+     ],
+     "brand": "Philips",
+     "id": "rv-philips-xu2000-10",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 599.0,
+       "shop": "bigbang"
+      }
+     ]
+    },
+    {
+     "name": "Hisense RVCL144ABEVO",
+     "offers": [
+      {
+       "shop": "domod",
+       "variant": "Hisense RVCL144ABEVO",
+       "price": 599.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/rvcl144abevo-hisense-robot-usisivac/GC744842"
+      },
+      {
+       "shop": "fontele",
+       "variant": "Hisense RVCL144ABEVO",
+       "price": 809.1,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/hisense-robotski-usisivac-rvcl144abevo-crni/6663"
+      }
+     ],
+     "brand": "Hisense",
+     "id": "rv-hisense-rvcl144abevo",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 599.0,
+       "shop": "domod"
+      }
+     ]
+    },
+    {
+     "name": "Beko VRR 84314 VB",
+     "offers": [
+      {
+       "shop": "domod",
+       "variant": "Beko VRR 84314 VB",
+       "price": 599.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/vrr-84314-vb-beko-robot-usisivac-bekoweb/OM1319"
+      }
+     ],
+     "brand": "Beko",
+     "id": "rv-beko-vrr-84314-vb",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 599.0,
+       "shop": "domod"
+      }
+     ]
+    },
+    {
+     "name": "Philips XU2000/15",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Philips XU2000/15",
+       "price": 609.0,
+       "old": 829.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000793934"
+      }
+     ],
+     "brand": "Philips",
+     "id": "rv-philips-xu2000-15",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 609.0,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum Mop Pro",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum Mop Pro",
+       "price": 629.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robot-usisivac-mop-pro-crni/5494555",
+       "note": "Prodavač: Ekutak"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-mop-pro",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 629.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer RR8577WH",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Rowenta X-Plorer RR8577WH",
+       "price": 632.9,
+       "old": 779.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/rowenta-robot-usisivac-rr8577-bijeli/3698756",
+       "note": "Prodavač: Ananas Shop"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Rowenta X-Plorer RR8577WH",
+       "price": 675.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/rowenta-robot-usisivac-x-plorer-rr8577wh/6452017",
+       "note": "Prodavač: Univerzalno"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Rowenta X-Plorer RR8577WH",
+       "price": 695.9,
+       "old": 1198.9,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000595277"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Rowenta X-Plorer RR8577WH",
+       "price": 749.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-20390430/"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-rr8577wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 632.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Mi Vacuum X10",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Mi Vacuum X10",
+       "price": 639.9,
+       "old": 799.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-mi-x10-eu-robotski-usisivac-1200-w/2919133",
+       "note": "Prodavač: Digitalis"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Mi Vacuum X10",
+       "price": 868.7,
+       "old": 1022.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-usisivac-robot-mi-vacuum-x10-eu/5371601",
+       "note": "Prodavač: Tehno Plus"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-mi-vacuum-x10",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 639.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer Serie 275 RR8865E0",
+     "offers": [
+      {
+       "shop": "domod",
+       "variant": "Rowenta X-Plorer Serie 275 RR8865E0",
+       "price": 659.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/rr8865e0-rowenta-robot-usisivac-x-plorer-serie-275-standard/SEB0100"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-serie-275-rr8865e0",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 659.0,
+       "shop": "domod"
+      }
+     ]
+    },
+    {
+     "name": "AENO RC5S",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "AENO RC5S",
+       "price": 673.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/aeno-robot-usisivac-rc5s-2u1-4000pa-3200mah-crni/6349289",
+       "note": "Prodavač: Univerzalno"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "AENO RC5S",
+       "price": 759.9,
+       "old": 799.9,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000847236"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "AENO RC5S",
+       "price": 799.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000228878/"
+      }
+     ],
+     "brand": "AENO",
+     "id": "rv-aeno-rc5s",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 673.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Q10 VF+",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Roborock Q10 VF+ crni",
+       "price": 679.9,
+       "old": 1099.9,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000830961"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Roborock Q10 VF+ crni",
+       "price": 899.9,
+       "old": 1374.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-q10-vf-5200mah-10000-pa-crni/5014633",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-q10-vf",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 679.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Q5 Pro",
+     "offers": [
+      {
+       "shop": "domod",
+       "variant": "Roborock Q5 Pro crni",
+       "price": 699.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/q5-pro-black-roborock-robot-usisivac-5200mah-wifi/DI35680"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-q5-pro",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 699.0,
+       "shop": "domod"
+      }
+     ]
+    },
+    {
+     "name": "Kärcher RVC 3 Comfort Extra",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Kärcher RVC 3 Comfort Extra",
+       "price": 699.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/karcher-robot-usisivac-rvc-3-komfort-extra-15-000-pa-2-6-ah-bijeli/7161865",
+       "note": "Prodavač: Motor Remont"
+      }
+     ],
+     "brand": "Kärcher",
+     "id": "rv-k-rcher-rvc-3-comfort-extra",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 699.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Kärcher RCV 3",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Kärcher RCV 3",
+       "price": 699.95,
+       "old": 889.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/karcher-robot-usisivac-rcv-3-bijeli/3411465",
+       "note": "Prodavač: Neptun"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Kärcher RCV 3",
+       "price": 836.9,
+       "old": 1039.95,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000567243"
+      }
+     ],
+     "brand": "Kärcher",
+     "id": "rv-k-rcher-rcv-3",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 699.95,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "TP-Link Tapo RV30 Max Plus",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "TP-Link Tapo RV30 Max Plus",
+       "price": 711.75,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/tp-link-robot-usisivac-sa-mopom-tapo-rv30-max-plus-crni/6294249",
+       "note": "Prodavač: Megatron"
+      }
+     ],
+     "brand": "TP-Link",
+     "id": "rv-tp-link-tapo-rv30-max-plus",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 711.75,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Q10 VF (bez stanice)",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Roborock Q10 VF (bez stanice)",
+       "price": 749.9,
+       "old": 999.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-q10-vf-5200mah-10000-pa-crni/5014622",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-q10-vf",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 749.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Hisense RVCLS144AB",
+     "offers": [
+      {
+       "shop": "fontele",
+       "variant": "Hisense RVCLS144AB",
+       "price": 764.1,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/hisense-robotski-usisivac-rvcls144ab-crni/6722"
+      },
+      {
+       "shop": "domod",
+       "variant": "Hisense RVCLS144AB",
+       "price": 999.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/rvcls144ab-hisense-robot-usisivac/GC740207"
+      }
+     ],
+     "brand": "Hisense",
+     "id": "rv-hisense-rvcls144ab",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 764.1,
+       "shop": "fontele"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer Serie 90 RR8797WH",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Rowenta X-Plorer Serie 90 RR8797WH",
+       "price": 768.9,
+       "old": 969.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000878177"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-serie-90-rr8797wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 768.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Bosch Spotless BCRC1W",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Bosch Spotless BCRC1W",
+       "price": 786.9,
+       "old": 1169.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000780177"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Bosch Spotless BCRC1W",
+       "price": 809.0,
+       "old": 1119.0,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000051548/"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Bosch Spotless BCRC1W",
+       "price": 950.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/bosch-robot-usisivac-spotless-bcrc1w/6452025",
+       "note": "Prodavač: Univerzalno"
+      }
+     ],
+     "brand": "Bosch",
+     "id": "rv-bosch-spotless-bcrc1w",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 786.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Philips XU2100/15",
+     "offers": [
+      {
+       "shop": "bigbang",
+       "variant": "Philips XU2100/15",
+       "price": 799.0,
+       "old": 949.0,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000074131/"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Philips XU2100/15",
+       "price": 809.0,
+       "old": 1129.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000784754"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Philips XU2100/15",
+       "price": 809.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/philips-robot-usisivac-xu2100-15-teget/4860713",
+       "note": "Prodavač: Ananas Shop"
+      }
+     ],
+     "brand": "Philips",
+     "id": "rv-philips-xu2100-15",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 799.0,
+       "shop": "bigbang"
+      }
+     ]
+    },
+    {
+     "name": "Roborock S7",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Roborock S7",
+       "price": 799.0,
+       "old": 998.75,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-s7-5200-mah-alexa-google-home-bijeli/4502260",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-s7",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 799.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum H50 Pro",
+     "offers": [
+      {
+       "shop": "fontele",
+       "variant": "Xiaomi Robot Vacuum H50 Pro",
+       "price": 799.2,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/xiaomi-robot-usisivac-h50-pro-bijela/9601"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Xiaomi Robot Vacuum H50 Pro",
+       "price": 819.9,
+       "old": 1139.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000856704"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum H50 Pro",
+       "price": 869.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robotski-usisivac-h50-pro-6000-pa-5200-mah-bijeli/7237615",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-h50-pro",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 799.2,
+       "shop": "fontele"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer Serie 135 RR91C5WH",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Rowenta X-Plorer Serie 135 RR91C5WH",
+       "price": 836.9,
+       "old": 1089.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000739991"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-serie-135-rr91c5wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 836.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum 5",
+     "offers": [
+      {
+       "shop": "bigbang",
+       "variant": "Xiaomi Robot Vacuum 5",
+       "price": 849.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000084870/"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Xiaomi Robot Vacuum 5 (20000 Pa, stanica)",
+       "price": 849.9,
+       "old": 1399.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000820667"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum 5",
+       "price": 1044.0,
+       "old": 1499.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robotski-usisivac-5-bhr0834eu/5150093",
+       "note": "Prodavač: Digitalis"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum 5",
+       "price": 1049.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robot-usisivac-5-20000-pa-stanica-za-ciscenje/6451967",
+       "note": "Prodavač: Univerzalno"
+      },
+      {
+       "shop": "fontele",
+       "variant": "Xiaomi Robot Vacuum 5",
+       "price": 1099.8,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/xiaomi-robotski-usisivac-5-bhr0834eu-bijeli/8379"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-5",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 849.9,
+       "shop": "bigbang"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer Serie 85+ RR87D5WH",
+     "offers": [
+      {
+       "shop": "domod",
+       "variant": "Rowenta X-Plorer Serie 85+ RR87D5WH",
+       "price": 899.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/rowenta-robot-usisivac-x-plorer-serie-85-rr87d5whmjesecciscenjarowenta/SEB3685"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-serie-85-rr87d5wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 899.0,
+       "shop": "domod"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer Serie 375+ RR8985E0",
+     "offers": [
+      {
+       "shop": "domod",
+       "variant": "Rowenta X-Plorer Serie 375+ RR8985E0",
+       "price": 899.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/rr8985e0-rowenta-robot-usisivac-x-plorer-serie-375/SEB70162"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-serie-375-rr8985e0",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 899.0,
+       "shop": "domod"
+      }
+     ]
+    },
+    {
+     "name": "Kärcher RCV 5",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Kärcher RCV 5",
+       "price": 902.45,
+       "old": 1559.95,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000567242"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Kärcher RCV 5",
+       "price": 989.9,
+       "old": 1209.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/karcher-robot-usisivac-rcv-5-bijeli/6323779",
+       "note": "Prodavač: Prana"
+      }
+     ],
+     "brand": "Kärcher",
+     "id": "rv-k-rcher-rcv-5",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 902.45,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "MOVA E40 Ultra",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "MOVA E40 Ultra",
+       "price": 949.05,
+       "old": 1369.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000886831"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "MOVA E40 Ultra",
+       "price": 999.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000376588/"
+      },
+      {
+       "shop": "ananas",
+       "variant": "MOVA E40 Ultra",
+       "price": 999.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/mova-robot-usisivac-e40-ultra-19000pa-0-3l-bijeli/7055497",
+       "note": "Prodavač: Univerzalno"
+      }
+     ],
+     "brand": "MOVA",
+     "id": "rv-mova-e40-ultra",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 949.05,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer Serie 130 Animal RR9075WH",
+     "offers": [
+      {
+       "shop": "domod",
+       "variant": "Rowenta X-Plorer Serie 130 Animal RR9075WH",
+       "price": 999.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/rowenta-robotski-usisivac-rr9075wh-x-plorer-serie-130-animal/SEB42599"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-serie-130-animal-rr9075wh",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 999.0,
+       "shop": "domod"
+      }
+     ]
+    },
+    {
+     "name": "Roborock QR798 sa stanicom",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Roborock QR798 sa stanicom",
+       "price": 999.9,
+       "old": 1249.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-qr798-5200mah-10000-pa-bijeli/7319948",
+       "note": "Prodavač: Mobilmedia"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Roborock QR798 sa stanicom",
+       "price": 1199.9,
+       "old": 1999.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-qr798-5200mah-10000-pa-bijeli/5014621",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-qr798-sa-stanicom",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 999.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Bosch Spotless Advanced+ BCRD2W",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Bosch Spotless Advanced+ BCRD2W",
+       "price": 1012.9,
+       "old": 1609.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000780176"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Bosch Spotless Advanced+ BCRD2W",
+       "price": 1039.0,
+       "old": 1499.0,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000017413/"
+      },
+      {
+       "shop": "fontele",
+       "variant": "Bosch Spotless Advanced+ BCRD2W",
+       "price": 1079.1,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/bosch-robotski-usisivac-bcrd2w-bijela/8318",
+       "note": "Top ponuda"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Bosch Spotless Advanced+ BCRD2W",
+       "price": 1147.9,
+       "old": 1493.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/bosch-robotski-usisivac-bcrd2w-spotless-advanced-bijela-boja/5001410",
+       "note": "Prodavač: Ananas Shop"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Bosch Spotless Advanced+ BCRD2W",
+       "price": 1224.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/bosch-robot-usisivac-spotless-advanced-bcrd2w/6452010",
+       "note": "Prodavač: Univerzalno"
+      }
+     ],
+     "brand": "Bosch",
+     "id": "rv-bosch-spotless-advanced-bcrd2w",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1012.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Eufy Omni C28",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Eufy Omni C28",
+       "price": 1136.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/anker-robot-usisivac-omni-c28-eufy-15000-pa-hydrojet-samocisteci-mop-5-u-1-omni-stanica-crni/6961526",
+       "note": "Prodavač: Univerzalno"
+      }
+     ],
+     "brand": "Eufy",
+     "id": "rv-eufy-omni-c28",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1136.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Eufy X10 Pro Omni",
+     "offers": [
+      {
+       "shop": "fontele",
+       "variant": "Eufy X10 Pro Omni",
+       "price": 1169.1,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/anker-robot-usisivac-eufy-x10-pro-omni-crna/8694"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Eufy X10 Pro Omni",
+       "price": 1492.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/eufy-robot-usisivac-x10-pro-omni-crni/6451961",
+       "note": "Prodavač: Univerzalno"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Eufy X10 Pro Omni",
+       "price": 1599.0,
+       "old": 1989.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/eufy-robotski-usisivac-sa-stanicom-x10-pro-omni-b2b-t2351g11/5512254",
+       "note": "Prodavač: Ananas Shop"
+      }
+     ],
+     "brand": "Eufy",
+     "id": "rv-eufy-x10-pro-omni",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1169.1,
+       "shop": "fontele"
+      }
+     ]
+    },
+    {
+     "name": "Kärcher RCF 3",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Kärcher RCF 3",
+       "price": 1189.9,
+       "old": 1620.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/karcher-robot-usisivac-rcf-3/5494639",
+       "note": "Prodavač: Ananas Shop"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Kärcher RCF 3",
+       "price": 1189.9,
+       "old": 1485.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/karcher-robot-usisivac-rcf-3/6323778",
+       "note": "Prodavač: Prana"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Kärcher RCF 3",
+       "price": 1252.9,
+       "old": 1669.9,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000782490"
+      }
+     ],
+     "brand": "Kärcher",
+     "id": "rv-k-rcher-rcf-3",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1189.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Eufy Omni E28",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Eufy Omni E28",
+       "price": 1199.0,
+       "old": 1521.7,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/anker-robot-usisivac-eufy-2-2l-crni/7035946",
+       "note": "Prodavač: Ananas Shop"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Eufy Omni E28",
+       "price": 1399.0,
+       "old": 2395.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/anker-robotski-usisivac-eufy-omni-e28/6544993",
+       "note": "Prodavač: Start.ba"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Eufy Omni E28",
+       "price": 1499.9,
+       "old": 2099.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000857975"
+      }
+     ],
+     "brand": "Eufy",
+     "id": "rv-eufy-omni-e28",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1199.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum X20+",
+     "offers": [
+      {
+       "shop": "domod",
+       "variant": "Xiaomi Robot Vacuum X20+",
+       "price": 1199.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/x20-xiaomi-robot-usisivac/IR8556"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-x20",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1199.0,
+       "shop": "domod"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum 6",
+     "offers": [
+      {
+       "shop": "fontele",
+       "variant": "Xiaomi Robot Vacuum 6",
+       "price": 1199.7,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/xiaomi-robot-usisivac-6/9945"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-6",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1199.7,
+       "shop": "fontele"
+      }
+     ]
+    },
+    {
+     "name": "Eufy Omni E25",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Eufy Omni E25",
+       "price": 1199.9,
+       "old": 1799.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000857972"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Eufy Omni E25",
+       "price": 1369.0,
+       "old": 1799.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/anker-robot-usisivac-eufy-omni-e25-crni/6544990",
+       "note": "Prodavač: Start.ba"
+      },
+      {
+       "shop": "fontele",
+       "variant": "Eufy Omni E25",
+       "price": 1399.5,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/anker-robotski-usisivac-eufy-omni-e25-crna/9086"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Eufy Omni E25",
+       "price": 1621.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/eufy-robot-usisivac-omni-e25-20000pa-crni/6349262",
+       "note": "Prodavač: Univerzalno"
+      }
+     ],
+     "brand": "Eufy",
+     "id": "rv-eufy-omni-e25",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1199.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Dyson 360 Vis Nav / R1 Nurovi",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Dyson 360 Vis Nav / R1 Nurovi",
+       "price": 1205.9,
+       "old": 1509.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000907855"
+      }
+     ],
+     "brand": "Dyson",
+     "id": "rv-dyson-360-vis-nav-r1-nurovi",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1205.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Kärcher RVM 4 Comfort Extra",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Kärcher RVM 4 Comfort Extra",
+       "price": 1232.9,
+       "old": 1519.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000856686"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Kärcher RVM 4 Comfort Extra",
+       "price": 1300.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/karcher-robot-usisivac-rvm-4-comfort-extra-15000-pa-5200-mah-bijeli/7192082",
+       "note": "Prodavač: Motor Remont"
+      }
+     ],
+     "brand": "Kärcher",
+     "id": "rv-k-rcher-rvm-4-comfort-extra",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1232.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum 5 Pro",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum 5 Pro",
+       "price": 1299.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robot-usisivac-5-pro-bhr07wfeu-20000-pa-stanica-za-ciscenje-beli/5150099",
+       "note": "Prodavač: Digitalis"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Xiaomi Robot Vacuum 5 Pro",
+       "price": 1089.9,
+       "old": 1599.0,
+       "inStock": false,
+       "url": "https://www.bigbang.ba/x-p-5000084871/"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-5-pro",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1299.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Electrolux 800 ER81UW3SW",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Electrolux 800 ER81UW3SW",
+       "price": 1339.0,
+       "old": 1399.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/electrolux-robotski-usisivac-800-er81uw3sw-suho-i-mokro-ciscenje-all-in-1-stanica-208-min-bijeli/7005280",
+       "note": "Prodavač: Ananas Shop"
+      }
+     ],
+     "brand": "Electrolux",
+     "id": "rv-electrolux-800-er81uw3sw",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1339.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Rowenta X-Plorer Serie 575 Max RR95A5E0",
+     "offers": [
+      {
+       "shop": "domod",
+       "variant": "Rowenta X-Plorer Serie 575 Max RR95A5E0",
+       "price": 1399.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/rr95a5e0-rowenta-robot-usisivac-x-plorer-serie-575-max/SEB3904"
+      }
+     ],
+     "brand": "Rowenta",
+     "id": "rv-rowenta-x-plorer-serie-575-max-rr95a5e0",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1399.0,
+       "shop": "domod"
+      }
+     ]
+    },
+    {
+     "name": "Eufy Omni S1",
+     "offers": [
+      {
+       "shop": "fontele",
+       "variant": "Eufy Omni S1",
+       "price": 1439.1,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/anker-eufy-robot-usisivac-omni-s1-crna/8688"
+      }
+     ],
+     "brand": "Eufy",
+     "id": "rv-eufy-omni-s1",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1439.1,
+       "shop": "fontele"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Qrevo C Pro",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Roborock Qrevo C Pro crni",
+       "price": 1499.9,
+       "old": 2229.9,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000857760"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Roborock Qrevo C Pro bijeli",
+       "price": 1599.9,
+       "old": 2229.9,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000857763"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Roborock Qrevo C Pro crni",
+       "price": 1799.9,
+       "old": 2249.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-qrevo-c-pro-black-sa-stanicom-za-praznjenje-5200-mah-18500-pa/6010651",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-qrevo-c-pro",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1499.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum 6 Pro",
+     "offers": [
+      {
+       "shop": "fontele",
+       "variant": "Xiaomi Robot Vacuum 6 Pro",
+       "price": 1529.1,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/xiaomi-robot-usisivac-6-pro/9946"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-6-pro",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1529.1,
+       "shop": "fontele"
+      }
+     ]
+    },
+    {
+     "name": "Bosch Spotless Max BCRDW3B",
+     "offers": [
+      {
+       "shop": "bigbang",
+       "variant": "Bosch Spotless Max BCRDW3B",
+       "price": 1649.0,
+       "old": 2229.0,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000051550/"
+      }
+     ],
+     "brand": "Bosch",
+     "id": "rv-bosch-spotless-max-bcrdw3b",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1649.0,
+       "shop": "bigbang"
+      }
+     ]
+    },
+    {
+     "name": "MOVA S70 Pro Roller",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "MOVA S70 Pro Roller",
+       "price": 1709.05,
+       "old": 2479.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000886832"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "MOVA S70 Pro Roller",
+       "price": 1799.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000277798/"
+      },
+      {
+       "shop": "ananas",
+       "variant": "MOVA S70 Pro Roller",
+       "price": 1799.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/mova-robot-usisivac-s70-pro-30000pa-0-24l-bijeli/7055500",
+       "note": "Prodavač: Univerzalno"
+      }
+     ],
+     "brand": "MOVA",
+     "id": "rv-mova-s70-pro-roller",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1709.05,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Xiaomi Robot Vacuum 6 Max",
+     "offers": [
+      {
+       "shop": "fontele",
+       "variant": "Xiaomi Robot Vacuum 6 Max",
+       "price": 1799.1,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/xiaomi-robot-usisivac-6-max/9947"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Xiaomi Robot Vacuum 6 Max",
+       "price": 1899.9,
+       "old": 2299.0,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000479795/"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Xiaomi Robot Vacuum 6 Max",
+       "price": 1979.0,
+       "old": 2479.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000890809"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum 6 Max",
+       "price": 2069.1,
+       "old": 2299.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robotski-usisivac-mi-vacuum-6-max-70-w-crni/7327539",
+       "note": "Prodavač: Ananas Shop"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-6-max",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1799.1,
+       "shop": "fontele"
+      }
+     ]
+    },
+    {
+     "name": "Bosch Spotless Max Cam BCRDW3BX",
+     "offers": [
+      {
+       "shop": "fontele",
+       "variant": "Bosch Spotless Max Cam BCRDW3BX",
+       "price": 1799.1,
+       "old": null,
+       "inStock": true,
+       "url": "https://fontele.ba/proizvod/bosch-robotski-usisivac-bcrdw3bx-spotless-max-cam-crna/9410"
+      },
+      {
+       "shop": "domod",
+       "variant": "Bosch Spotless Max Cam BCRDW3BX",
+       "price": 1899.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://domod.ba/shop/proizvod/bcrdw3bx-bosch-robot-usisivac-spotless-max-cam/BSH5805"
+      }
+     ],
+     "brand": "Bosch",
+     "id": "rv-bosch-spotless-max-cam-bcrdw3bx",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1799.1,
+       "shop": "fontele"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Qrevo 5AE",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Roborock Qrevo 5AE",
+       "price": 1799.9,
+       "old": 2249.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-qrevo-5ae-5200mah-12000-pa-bijeli/5014619",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-qrevo-5ae",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1799.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Dreame L50s Pro Ultra",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Dreame L50s Pro Ultra",
+       "price": 1899.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/dreame-robotski-usisivac-l50s-pro-ultra-30000-pa-5-200-mah-2-u-1-crni/7003643",
+       "note": "Prodavač: eStyle"
+      }
+     ],
+     "brand": "Dreame",
+     "id": "rv-dreame-l50s-pro-ultra",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1899.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Eufy S1 Pro",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Eufy S1 Pro",
+       "price": 1999.9,
+       "old": 2999.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000857967"
+      },
+      {
+       "shop": "ananas",
+       "variant": "Eufy S1 Pro",
+       "price": 2999.0,
+       "old": 3864.0,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/anker-robot-usisivac-eufy-30000pa-3l-sivi/7035975",
+       "note": "Prodavač: Ananas Shop"
+      }
+     ],
+     "brand": "Eufy",
+     "id": "rv-eufy-s1-pro",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1999.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "MOVA V50 Ultra",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "MOVA V50 Ultra",
+       "price": 2279.05,
+       "old": 3289.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000886834"
+      },
+      {
+       "shop": "ananas",
+       "variant": "MOVA V50 Ultra",
+       "price": 2399.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/mova-robot-usisivac-v50-ultra-24000pa-3-2l-bijeli/7055503",
+       "note": "Prodavač: Univerzalno"
+      }
+     ],
+     "brand": "MOVA",
+     "id": "rv-mova-v50-ultra",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 2279.05,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "MOVA V50 Ultra Complete",
+     "offers": [
+      {
+       "shop": "bigbang",
+       "variant": "MOVA V50 Ultra Complete",
+       "price": 2399.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000277799/"
+      }
+     ],
+     "brand": "MOVA",
+     "id": "rv-mova-v50-ultra-complete",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 2399.0,
+       "shop": "bigbang"
+      }
+     ]
+    },
+    {
+     "name": "Dyson Spot+Scrub Ai",
+     "offers": [
+      {
+       "shop": "bigbang",
+       "variant": "Dyson Spot+Scrub Ai",
+       "price": 2599.9,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000184580/"
+      }
+     ],
+     "brand": "Dyson",
+     "id": "rv-dyson-spot-scrub-ai",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 2599.9,
+       "shop": "bigbang"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Saros 20",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Roborock Saros 20",
+       "price": 2599.9,
+       "old": 4069.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000865088"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-saros-20",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 2599.9,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "MOVA Z60 Ultra Roller Complete",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "MOVA Z60 Ultra Roller Complete",
+       "price": 2659.05,
+       "old": 3849.0,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000886824"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "MOVA Z60 Ultra Roller Complete",
+       "price": 2799.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000264858/"
+      },
+      {
+       "shop": "ananas",
+       "variant": "MOVA Z60 Ultra Roller Complete",
+       "price": 2799.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/mova-robot-usisivac-z60-ultra-28000-0-21l-crni/7055502",
+       "note": "Prodavač: Univerzalno"
+      }
+     ],
+     "brand": "MOVA",
+     "id": "rv-mova-z60-ultra-roller-complete",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 2659.05,
+       "shop": "ekupi"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Saros 10R",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Roborock Saros 10R",
+       "price": 2699.9,
+       "old": 4374.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-saros-10r-black-6400-mah-wifi-crni/4226508",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-saros-10r",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 2699.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Qrevo Edge 2 Pro",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Roborock Qrevo Edge 2 Pro",
+       "price": 2799.0,
+       "old": 3749.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-qrevo-edge-2-pro-sa-stanicom-za-praznjenje-6400-mah-25000-pa/6010664",
+       "note": "Prodavač: Digitalis"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Roborock Qrevo Edge 2 Pro",
+       "price": 2799.9,
+       "old": 3829.9,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000857756"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-qrevo-edge-2-pro",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 2799.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Eufy Omni S2",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Eufy Omni S2",
+       "price": 2831.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/anker-robot-usisivac-omni-s2-eufy-30000-pa-hydrojet-2-0-samocisteci-mop-elektrolizovana-voda-crni/6961545",
+       "note": "Prodavač: Univerzalno"
+      }
+     ],
+     "brand": "Eufy",
+     "id": "rv-eufy-omni-s2",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 2831.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "MOVA Mobius 60",
+     "offers": [
+      {
+       "shop": "bigbang",
+       "variant": "MOVA Mobius 60",
+       "price": 2999.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://www.bigbang.ba/x-p-5000193543/"
+      }
+     ],
+     "brand": "MOVA",
+     "id": "rv-mova-mobius-60",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 2999.0,
+       "shop": "bigbang"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Saros Z70",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Roborock Saros Z70",
+       "price": 3999.9,
+       "old": 4999.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robotski-usisivac-saros-z70-bijela-boja/5130850",
+       "note": "Prodavač: Digitalis"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-saros-z70",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 3999.9,
+       "shop": "ananas"
+      }
+     ]
+    }
+   ]
   }
  ]
 };

@@ -91,13 +91,17 @@
     </div>
   </header>
 
+  <div class="shops" id="jump" style="margin-top:14px"></div>
+
   <h2 id="focus-h">Fokus</h2>
   <section class="hero" id="focus"></section>
 
   <h2>Lista praćenja</h2>
   <section class="grid" id="watch"></section>
 
-  <h2>Najveći popusti trenutno</h2>
+  <div id="featured"></div>
+
+  <h2 id="deals-h">Najveći popusti trenutno</h2>
   <div class="toolbar">
     <input id="q" type="search" placeholder="Traži artikal…">
     <select id="cat"><option value="">Sve kategorije</option></select>
@@ -257,12 +261,59 @@
     $('#watch').append(c);
   });
 
+  const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d');
+  // featured (izdvojeno)
+  (D.featured||[]).forEach(F=>$('#jump').append(el('a',{href:'#f-'+F.id,style:'color:var(--acc);border-color:#5a4b16'},'→ Izdvojeno: '+F.title)));
+  $('#jump').append(el('a',{href:'#deals-h'},'→ Svi popusti'));
+  (D.featured||[]).forEach(F=>{
+    const wrap=$('#featured'); const sid=F.id;
+    const brands=[...new Set(F.groups.map(g=>g.brand))].sort();
+    const nOff=F.groups.reduce((s,g)=>s+g.offers.length,0);
+    wrap.append(el('h2',{id:'f-'+sid},'Izdvojeno · '+F.title));
+    const tb=el('div',{class:'toolbar'});
+    const fq=el('input',{type:'search',placeholder:'Traži model (npr. S40, Roborock)…'});
+    const fb=el('select',{}, el('option',{value:'',text:'Svi brendovi'}), brands.map(b=>el('option',{value:b,text:b})));
+    const fp=el('select',{}, [['','Bilo koja cijena'],['300','do 300 KM'],['500','do 500 KM'],['800','do 800 KM'],['1200','do 1.200 KM'],['2000','do 2.000 KM']].map(([v,t])=>el('option',{value:v,text:t})));
+    const fs=el('select',{}, [['price','Sortiraj: najjeftiniji'],['pricedesc','Sortiraj: najskuplji'],['shops','Sortiraj: najviše prodavnica'],['save','Sortiraj: razlika među prodavnicama']].map(([v,t])=>el('option',{value:v,text:t})));
+    const fm=el('select',{}, el('option',{value:'',text:'Svi modeli'}), el('option',{value:'multi',text:'Samo modeli u 2+ prodavnice'}));
+    tb.append(fq,fb,fp,fs,fm); wrap.append(tb);
+    const cnt=el('div',{class:'sub',style:'margin:-4px 0 10px'}); wrap.append(cnt);
+    const grid=el('section',{class:'grid'}); wrap.append(grid);
+    const more=el('button',{class:'morebtn'},'Prikaži još'); wrap.append(el('div',{style:'text-align:center;margin-top:12px'},more));
+    let shownF=24;
+    const info=g=>{ const ins=g.offers.filter(o=>o.price!=null&&o.inStock!==false).sort((a,b)=>a.price-b.price); const best=ins[0]; const worst=ins[ins.length-1]; return {best, spread: best&&worst? worst.price-best.price:0, shops:new Set(g.offers.map(o=>o.shop)).size}; };
+    function render(reset){
+      if(reset!==false) shownF=24;
+      const q=norm(fq.value.trim()), b=fb.value, mp=+fp.value||Infinity, so=fs.value, mm=fm.value;
+      let list=F.groups.map(g=>({g,...info(g)})).filter(x=>x.best && (!q||q.split(/\s+/).every(w=>norm(x.g.name).includes(w))) && (!b||x.g.brand===b) && x.best.price<=mp && (!mm||x.shops>1));
+      list.sort((a,c)=> so==='pricedesc'? c.best.price-a.best.price : so==='shops'? (c.shops-a.shops)||(a.best.price-c.best.price) : so==='save'? c.spread-a.spread : a.best.price-c.best.price);
+      cnt.textContent=list.length+' modela · '+nOff+' ponuda iz '+new Set(F.groups.flatMap(g=>g.offers.map(o=>o.shop))).size+' prodavnica';
+      grid.innerHTML=''; more.style.display=list.length>shownF?'':'none';
+      if(!list.length){ grid.append(el('div',{class:'empty',text:'Ništa ne odgovara filteru.'})); return; }
+      list.slice(0,shownF).forEach(({g,best,spread,shops})=>{
+        const c=el('article',{class:'card',id:g.id});
+        c.append(el('div',{class:'n',text:g.name}));
+        c.append(el('div',{class:'p',text:km(best.price)}));
+        c.append(el('div',{class:'row'}, el('span',{text:shopName(best.shop)+(best.note&&best.shop==='ananas'?' · '+best.note.replace('Prodavač: ',''):'')}), el('span',{text: shops>1? shops+' prodavnice' : '1 prodavnica'})));
+        const pills=el('div',{});
+        if(best.old) pills.append(el('span',{class:'pill good',text:'−'+Math.round((1-best.price/best.old)*100)+'%'}));
+        if(spread>0) pills.append(el('span',{class:'pill acc',text:'do '+km(spread)+' jeftinije nego drugdje'}));
+        if(pills.childNodes.length) c.append(pills);
+        c.append(targetBox(g,best));
+        c.append(el('details',{}, el('summary',{text:'Uporedi prodavnice ('+g.offers.length+')'}), offerTable(g)));
+        grid.append(c);
+      });
+    }
+    [fq,fb,fp,fs,fm].forEach(x=>x.addEventListener('input',()=>render()));
+    more.addEventListener('click',()=>{ shownF+=24; render(false); });
+    render();
+  });
+
   // deals
   const deals = (D.topDeals||[]).map(d=>({...d, pct: d.old? (1-d.price/d.old)*100 : 0, save: d.old? d.old-d.price:0}));
   [...new Set(deals.map(d=>d.cat))].sort().forEach(c=>$('#cat').append(el('option',{value:c,text:c})));
   [...new Set(deals.map(d=>d.shop))].forEach(s=>$('#shop').append(el('option',{value:s,text:shopName(s)})));
   const PAGE=40; let shown=PAGE;
-  const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d');
   function renderDeals(reset){
     if(reset!==false) shown=PAGE;
     const q=norm($('#q').value.trim()), cat=$('#cat').value, sh=$('#shop').value, so=$('#sort').value;
