@@ -3929,6 +3929,10 @@ window.DEALS = {
   {
    "t": "2026-11-11T10:00:00Z",
    "msg": "Dodano izdvojeno: robotski usisivači – 102 modela, 187 ponuda iz 6 prodavnica."
+  },
+  {
+   "t": "2026-11-11T14:00:00Z",
+   "msg": "Ispravka: eKupi Roborock Q7 BF za 299,90 KM je bez stanice; Q7 BF+ (sa stanicom) je 599,90 KM."
   }
  ],
  "noShop": [
@@ -4158,37 +4162,6 @@ window.DEALS = {
      ]
     },
     {
-     "name": "Roborock Q7 BF+",
-     "offers": [
-      {
-       "shop": "ekupi",
-       "variant": "Roborock Q7 BF+ bijeli",
-       "price": 299.9,
-       "old": 519.9,
-       "inStock": true,
-       "url": "https://www.ekupi.ba/bs/p/EK000857755"
-      },
-      {
-       "shop": "ananas",
-       "variant": "Roborock Q7 BF+",
-       "price": 595.0,
-       "old": 874.9,
-       "inStock": true,
-       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-q7bf-3200mah-8-000-pa-crni/5014634",
-       "note": "Prodavač: Digitalis"
-      }
-     ],
-     "brand": "Roborock",
-     "id": "rv-roborock-q7-bf",
-     "history": [
-      {
-       "t": "2026-11-11T10:00:00Z",
-       "best": 299.9,
-       "shop": "ekupi"
-      }
-     ]
-    },
-    {
      "name": "Xiaomi Robot Vacuum E10",
      "offers": [
       {
@@ -4216,6 +4189,28 @@ window.DEALS = {
        "t": "2026-11-11T10:00:00Z",
        "best": 299.9,
        "shop": "bingo"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Q7 BF (bez stanice)",
+     "brand": "Roborock",
+     "id": "rv-roborock-q7-bf",
+     "offers": [
+      {
+       "shop": "ekupi",
+       "variant": "Roborock Q7 BF (bez stanice za pražnjenje)",
+       "price": 299.9,
+       "old": 519.9,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000857755"
+      }
+     ],
+     "history": [
+      {
+       "t": "2026-11-11T14:00:00Z",
+       "best": 299.9,
+       "shop": "ekupi"
       }
      ]
     },
@@ -4437,7 +4432,8 @@ window.DEALS = {
        "price": 474.05,
        "old": 689.0,
        "inStock": true,
-       "url": "https://www.ekupi.ba/bs/p/EK000886830"
+       "url": "https://www.ekupi.ba/bs/p/EK000886830",
+       "note": "sa stanicom za automatsko pražnjenje"
       }
      ],
      "brand": "MOVA",
@@ -5093,6 +5089,37 @@ window.DEALS = {
       {
        "t": "2026-11-11T10:00:00Z",
        "best": 589.9,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
+     "name": "Roborock Q7 BF+",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Roborock Q7 BF+",
+       "price": 595.0,
+       "old": 874.9,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/roborock-robot-usisavac-sa-stanicom-za-praznjenje-q7bf-3200mah-8-000-pa-crni/5014634",
+       "note": "Prodavač: Digitalis"
+      },
+      {
+       "shop": "ekupi",
+       "variant": "Roborock Q7 BF+ bijeli (sa stanicom)",
+       "price": 599.9,
+       "old": 929.9,
+       "inStock": true,
+       "url": "https://www.ekupi.ba/bs/p/EK000857758"
+      }
+     ],
+     "brand": "Roborock",
+     "id": "rv-roborock-q7-bf",
+     "history": [
+      {
+       "t": "2026-11-11T14:00:00Z",
+       "best": 595.0,
        "shop": "ananas"
       }
      ]
@@ -6037,6 +6064,37 @@ window.DEALS = {
      ]
     },
     {
+     "name": "Xiaomi Robot Vacuum 5 Pro",
+     "offers": [
+      {
+       "shop": "ananas",
+       "variant": "Xiaomi Robot Vacuum 5 Pro",
+       "price": 1299.0,
+       "old": null,
+       "inStock": true,
+       "url": "https://ananas.ba/proizvod/xiaomi-robot-usisivac-5-pro-bhr07wfeu-20000-pa-stanica-za-ciscenje-beli/5150099",
+       "note": "Prodavač: Digitalis"
+      },
+      {
+       "shop": "bigbang",
+       "variant": "Xiaomi Robot Vacuum 5 Pro",
+       "price": 1089.9,
+       "old": 1599.0,
+       "inStock": false,
+       "url": "https://www.bigbang.ba/x-p-5000084871/"
+      }
+     ],
+     "brand": "Xiaomi",
+     "id": "rv-xiaomi-robot-vacuum-5-pro",
+     "history": [
+      {
+       "t": "2026-11-11T10:00:00Z",
+       "best": 1299.0,
+       "shop": "ananas"
+      }
+     ]
+    },
+    {
      "name": "Eufy Omni C28",
      "offers": [
       {
@@ -6321,37 +6379,6 @@ window.DEALS = {
        "t": "2026-11-11T10:00:00Z",
        "best": 1232.9,
        "shop": "ekupi"
-      }
-     ]
-    },
-    {
-     "name": "Xiaomi Robot Vacuum 5 Pro",
-     "offers": [
-      {
-       "shop": "ananas",
-       "variant": "Xiaomi Robot Vacuum 5 Pro",
-       "price": 1299.0,
-       "old": null,
-       "inStock": true,
-       "url": "https://ananas.ba/proizvod/xiaomi-robot-usisivac-5-pro-bhr07wfeu-20000-pa-stanica-za-ciscenje-beli/5150099",
-       "note": "Prodavač: Digitalis"
-      },
-      {
-       "shop": "bigbang",
-       "variant": "Xiaomi Robot Vacuum 5 Pro",
-       "price": 1089.9,
-       "old": 1599.0,
-       "inStock": false,
-       "url": "https://www.bigbang.ba/x-p-5000084871/"
-      }
-     ],
-     "brand": "Xiaomi",
-     "id": "rv-xiaomi-robot-vacuum-5-pro",
-     "history": [
-      {
-       "t": "2026-11-11T10:00:00Z",
-       "best": 1299.0,
-       "shop": "ananas"
       }
      ]
     },
