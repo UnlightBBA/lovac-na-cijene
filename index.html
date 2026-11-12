@@ -6,11 +6,23 @@
 <title>Lovac na cijene · Black Friday BiH</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.dataset.theme="dark"}catch(e){}</script>
 <style>
   :root{
-    --bg:#0d0d0f; --panel:#16161a; --panel2:#1d1d22; --line:#2a2a31;
-    --ink:#f2f0ea; --mute:#9a978f; --acc:#ffd23f; --good:#3ddc84; --bad:#ff6b5b; --hr:#7aa7ff;
+    --bg:#f6f5f1; --panel:#ffffff; --panel2:#f1efe8; --line:#e2dfd6;
+    --ink:#1b1a17; --mute:#6b675e; --acc:#a26a00; --accbg:#ffd23f; --good:#11804a; --bad:#c8372a; --hr:#2f5fc4;
+    --hero1:#fff6d6; --heroline:#ecd98f; --goodline:#a9d9bd; --accline:#e6cf86; --hrline:#b9c9ec;
+    --bestbg:rgba(17,128,74,.08); --abroad:#2f4f8a; --hover:#c9c4b6; --bfbg:#1b1a17; --bfink:#ffd23f; --spark:#d39b00;
+    color-scheme:light;
   }
+  [data-theme=dark]{
+    --bg:#0d0d0f; --panel:#16161a; --panel2:#1d1d22; --line:#2a2a31;
+    --ink:#f2f0ea; --mute:#9a978f; --acc:#ffd23f; --accbg:#ffd23f; --good:#3ddc84; --bad:#ff6b5b; --hr:#7aa7ff;
+    --hero1:#1c1a10; --heroline:#3a3420; --goodline:#2b5d3f; --accline:#5a4b16; --hrline:#2c3f66;
+    --bestbg:rgba(61,220,132,.07); --abroad:#c9d6f5; --hover:#4a4a55; --bfbg:#2a2a31; --bfink:#ffd23f; --spark:#ffd23f;
+    color-scheme:dark;
+  }
+  .themebtn{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:6px 10px;font:inherit;font-size:13px;cursor:pointer;margin-bottom:8px}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);font-family:"Space Grotesk",system-ui,sans-serif;font-size:15px;line-height:1.45}
   a{color:inherit}
@@ -24,16 +36,16 @@
   .count b{display:block;font-size:22px;color:var(--acc)}
   .count small{color:var(--mute);font-size:11px}
   h2{font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--mute);margin:30px 0 12px;font-weight:500}
-  .hero{background:linear-gradient(135deg,#1c1a10,#16161a 60%);border:1px solid #3a3420;border-radius:14px;padding:20px;display:grid;grid-template-columns:1fr;gap:18px}
+  .hero{background:linear-gradient(135deg,var(--hero1),var(--panel) 60%);border:1px solid var(--heroline);border-radius:14px;padding:20px;display:grid;grid-template-columns:1fr;gap:18px}
   @media(min-width:820px){.hero{grid-template-columns:1.1fr 1fr}}
   .hero .label{color:var(--acc);font-size:12px;text-transform:uppercase;letter-spacing:.12em}
   .hero .pname{font-size:24px;font-weight:700;margin:4px 0 10px}
   .big{font-size:clamp(34px,6vw,52px);font-weight:700;letter-spacing:-.03em;line-height:1}
   .big small{font-size:18px;color:var(--mute);font-weight:500}
   .pill{display:inline-block;font-size:12px;padding:3px 8px;border-radius:99px;background:var(--panel2);border:1px solid var(--line);margin:8px 6px 0 0}
-  .pill.good{color:var(--good);border-color:#2b5d3f}
-  .pill.acc{color:var(--acc);border-color:#5a4b16}
-  .pill.hr{color:var(--hr);border-color:#2c3f66}
+  .pill.good{color:var(--good);border-color:var(--goodline)}
+  .pill.acc{color:var(--acc);border-color:var(--accline)}
+  .pill.hr{color:var(--hr);border-color:var(--hrline)}
   .hero>*{min-width:0}
   td.num .note{white-space:normal;font-family:'Space Grotesk',sans-serif}
   .verdict{margin-top:12px;color:var(--ink);font-size:14px;max-width:46ch}
@@ -41,9 +53,9 @@
   th{text-align:left;font-weight:500;color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.06em;padding:6px 8px;border-bottom:1px solid var(--line)}
   td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
   td.num{font-family:"JetBrains Mono",monospace;text-align:right;white-space:nowrap}
-  tr.best td{background:rgba(61,220,132,.07)}
+  tr.best td{background:var(--bestbg)}
   tr.best td:first-child{box-shadow:inset 3px 0 0 var(--good)}
-  tr.abroad td{color:#c9d6f5}
+  tr.abroad td{color:var(--abroad)}
   .old{color:var(--mute);text-decoration:line-through;font-size:12px;display:block}
   .note{color:var(--mute);font-size:12px;display:block}
   .diff{font-size:12px}
@@ -62,14 +74,14 @@
   .toolbar input,.toolbar select{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:8px 10px;font:inherit}
   .toolbar input{flex:1;min-width:180px}
   .deal{display:grid;grid-template-columns:54px 1fr auto;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;text-decoration:none}
-  .deal:hover{border-color:#4a4a55}
-  .deal .pct{font-family:"JetBrains Mono",monospace;font-size:15px;color:#111;background:var(--acc);border-radius:6px;text-align:center;padding:6px 0}
+  .deal:hover{border-color:var(--hover)}
+  .deal .pct{font-family:"JetBrains Mono",monospace;font-size:15px;color:#111;background:var(--accbg);border-radius:6px;text-align:center;padding:6px 0}
   .deal .meta{color:var(--mute);font-size:12px}
   .deal .pr{text-align:right;font-family:"JetBrains Mono",monospace}
   .deals{display:grid;gap:8px}
-  .deal .pct.bf{background:#2a2a31;color:var(--acc)}
+  .deal .pct.bf{background:var(--bfbg);color:var(--bfink)}
   .morebtn{background:var(--panel);border:1px solid var(--line);color:var(--acc);border-radius:8px;padding:10px 22px;font:inherit;cursor:pointer}
-  .morebtn:hover{border-color:#4a4a55}
+  .morebtn:hover{border-color:var(--hover)}
   .spark{width:100%;height:46px}
   footer{margin-top:36px;color:var(--mute);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
   .shops{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
@@ -86,6 +98,7 @@
       <div class="shops" id="shoplinks"></div>
     </div>
     <div>
+      <button class="themebtn" id="themebtn" type="button"></button>
       <div class="sub" style="margin:0 0 6px">Do Black Fridaya (27.11.)</div>
       <div class="count" id="countdown"></div>
     </div>
@@ -182,7 +195,7 @@
     if(pts.length<2){ return el('div',{class:'note',text:'Graf historije cijene se puni sa svakim ažuriranjem.'}); }
     const ys=pts.map(p=>p.best), min=Math.min(...ys), max=Math.max(...ys), r=(max-min)||1;
     const d=pts.map((p,i)=>`${i?'L':'M'}${(i/(pts.length-1))*296+2},${40-((p.best-min)/r)*34}`).join(' ');
-    const path=document.createElementNS(svg.namespaceURI,'path'); path.setAttribute('d',d); path.setAttribute('fill','none'); path.setAttribute('stroke','#ffd23f'); path.setAttribute('stroke-width','2'); path.setAttribute('vector-effect','non-scaling-stroke');
+    const path=document.createElementNS(svg.namespaceURI,'path'); path.setAttribute('d',d); path.setAttribute('fill','none'); path.setAttribute('stroke',getComputedStyle(document.documentElement).getPropertyValue('--spark').trim()||'#d39b00'); path.setAttribute('stroke-width','2'); path.setAttribute('vector-effect','non-scaling-stroke');
     const tt=document.createElementNS(svg.namespaceURI,'title'); tt.textContent=`Min ${km(min)} · Max ${km(max)}`; svg.append(tt, path);
     return svg;
   }
@@ -263,7 +276,7 @@
 
   const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d');
   // featured (izdvojeno)
-  (D.featured||[]).forEach(F=>$('#jump').append(el('a',{href:'#f-'+F.id,style:'color:var(--acc);border-color:#5a4b16'},'→ Izdvojeno: '+F.title)));
+  (D.featured||[]).forEach(F=>$('#jump').append(el('a',{href:'#f-'+F.id,style:'color:var(--acc);border-color:var(--accline)'},'→ Izdvojeno: '+F.title)));
   $('#jump').append(el('a',{href:'#deals-h'},'→ Svi popusti'));
   (D.featured||[]).forEach(F=>{
     const wrap=$('#featured'); const sid=F.id;
@@ -340,6 +353,11 @@
   if(D.noShop && D.noShop.length) $('#foot').append(el('div',{style:'margin-top:6px',text:'Ne prate se: '+D.noShop.map(n=>n.name+' ('+n.why+')').join('; ')+'.'}));
   $('#foot').append(el('pre',{style:'white-space:pre-wrap;font-family:inherit;margin-top:8px',text:log}));
 })();
+</script>
+<script>
+(function(){const b=document.getElementById('themebtn');const r=document.documentElement;
+function lab(){b.textContent=r.dataset.theme==='dark'?'☀︎ Svijetli način':'☾ Tamni način'}
+b.onclick=function(){if(r.dataset.theme==='dark'){delete r.dataset.theme;try{localStorage.setItem('theme','light')}catch(e){}}else{r.dataset.theme='dark';try{localStorage.setItem('theme','dark')}catch(e){}}lab();document.querySelectorAll('svg.spark path').forEach(p=>p.setAttribute('stroke',getComputedStyle(r).getPropertyValue('--spark').trim()))};lab()})();
 </script>
 </body>
 </html>
