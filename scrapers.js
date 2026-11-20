@@ -37,5 +37,36 @@ window.NP={}; window.NPlog=[];
 (async()=>{ const cats={'/19267-tv.nspx':'T','/19446-mobilna-tehnologija.nspx':'M','/19978-mali-kucanski-aparati.nspx':'K','/20506-it.nspx':'L','/19775-bijela-i-ugradbena-tehnika.nspx':'K','/20176-aparati-za-licnu-njegu.nspx':'N','/19451-iphone.nspx':'M'}; for(const [u,c] of Object.entries(cats)){ const f=document.createElement('iframe'); f.style.cssText='width:1200px;height:900px;position:fixed;left:-3000px'; f.src=u; document.body.appendChild(f); await new Promise(r=>setTimeout(r,9000)); try{ const t=f.contentDocument.body.innerText; for(const m of t.matchAll(/\n([^\n]{6,140})\nRedovna cijena\n([\d.,]+)\nKM\nAkcijska cijena\n([\d.,]+)\nKM/g)){ const toN=s=>parseFloat(s.replace(/\./g,'').replace(',','.')); const name=m[1].trim(); if(!NP[name]) NP[name]={n:name,o:toN(m[2]),p:toN(m[3]),c,u}; } }catch(e){} NPlog.push(u); f.remove(); } NPlog.push('END'); })();
 // Link: https://www.neptunbih.ba + u (stranica kategorije)
 
+// ===== MUNGOS (otvori https://mungos.ba/, odbij kolačiće) – marketplace, JSON API =====
+// Link: https://mungos.ba/product/<nameSlug>-<uuid>. Uzimaj samo sellerType==='Shop', condition==='New', status==='Active', price>0.
+// Cijena = sellingPrice || price; stara = price kad postoji sellingPrice. Prodavač u note "Prodavač: <sellerName>". Max 4 najjeftinije ponude po artiklu.
+// Mali prodavači (npr. MobiFonShop, GlobalTechShop) – dodaj u note "mali prodavač, garancija prodavača – provjeri porijeklo uređaja".
+window.mgSearch=async(q,extra={})=>{const body={queryText:q,page:1,perPage:52,region:null,state:null,city:[],categoryCode:"",condition:[],priceMin:null,priceMax:null,selectionAttributes:{},rangeAttributes:{},type:"Product",sortBy:null,fetchType:null,mapSelectionFilter:{},showOnlyWithImages:false,showOnlyWithPrice:false,showOnlySponsored:false,showOnlyDiscount:false,showOnlyUrgentSale:false,showOnlyInStock:false,showOnlyNewCollection:false,showOnlyFreeShipping:false,fieldOfInterestCode:null,fieldOfInterestTag:[],markAsSearchItem:false,MerchCampaign:null,...extra}; const r=await fetch('/bff/contentdistribution/search/products-advanced',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body)}); return r.json();};
+window.MG={}; window.MGW={}; window.MGR={}; window.MGlog=[];
+(async()=>{ const ok=r=>r.sellerType==='Shop'&&r.condition==='New'&&r.status==='Active'&&r.price>0;
+ for(const q of ['iphone 17 pro 256','iphone 17 pro max 256','iphone 18 pro 256','oneblade']) for(let pg=1;pg<=2;pg++){ try{const j=await mgSearch(q,{page:pg}); (j.results||[]).filter(ok).forEach(r=>MGW[r.uuid]=r); if(!j.hasNext) break;}catch(e){break;} }
+ for(const q of ['robot usisivač','robotski usisivač','robot usisavač','robotski usisavač']) for(let pg=1;pg<=4;pg++){ try{const j=await mgSearch(q,{page:pg}); (j.results||[]).filter(ok).forEach(r=>MGR[r.uuid]=r); if(!j.hasNext) break;}catch(e){break;} }
+ MGlog.push('watchdone');
+ for(let pg=1;pg<=90;pg++){ try{const j=await mgSearch('',{categoryCode:'ElectronicsTechnology',showOnlyDiscount:true,showOnlyInStock:true,page:pg}); (j.results||[]).filter(ok).forEach(r=>{ if(r.sellingPrice) MG[r.nameSlug+'-'+r.uuid]={n:r.name,p:r.sellingPrice,o:r.price,c:r.categoryCode.replace('ElectronicsTechnology_',''),sel:r.sellerName}; }); MGlog.push(pg); if(!j.hasNext) break;}catch(e){break;} }
+ MGlog.push('END'); })();
+// MG kategorije: HouseholdAppliances*→K, Computers*→L, TV/Audio→T, MobileDevices→M. Izbaci roštilj pribor (Napoleon), filtere, maske, kablove, punjače i ruksake.
+
+// ===== SVEX (otvori https://svex.ba/) – oglasnik; JSON API listing.api.svex.ba (CORS dozvoljen sa svex.ba) =====
+// /v1/listings?limit=100&q=...  (max 100 po upitu; param "cursor" je blokiran, pa nema paginacije – koristi više kratkih upita).
+// onSale=true vraća samo artikle na akciji (salePrice < price, saleEndsAt). Brojevi u q (npr. "256", "QP6552") često vrate 0 – traži bez njih i filtriraj lokalno.
+// Uzimaj samo isShop===true, price>0, !reserved, status!=='sold'. Link: https://svex.ba/oglas/<slug>. Prodavač = sellerDisplayName.
+// Male prodavnice telefona bez d.o.o. u nazivu (AS MOBITEL, TechnikShop, Mobile shop Nerko…) označi u note "mali prodavač, garancija prodavača – provjeri porijeklo uređaja".
+window.svList=async(q,extra='')=>{const r=await fetch('https://listing.api.svex.ba/v1/listings?limit=100&q='+encodeURIComponent(q)+extra); return (await r.json()).items||[];};
+window.SV={}; window.SVW={}; window.SVR={}; window.SVlog=[];
+(async()=>{ const ok=x=>x.isShop&&+x.price>0&&!x.reserved&&x.status!=='sold'; const pr=x=>x.salePrice&&+x.salePrice<+x.price?+x.salePrice:+x.price;
+ const row=x=>({n:x.title,p:pr(x),o:pr(x)<+x.price?+x.price:null,sel:x.sellerDisplayName||'',slug:x.slug});
+ for(const q of ['iphone 17 pro','apple iphone 17 pro','iphone 17 pro max','iphone 18 pro','apple iphone 18 pro','oneblade','one blade','philips oneblade pro']){ try{(await svList(q)).filter(ok).forEach(x=>SVW[x.slug]=row(x));}catch(e){} }
+ for(const q of ['robot usisivač','robotski usisivač','robot usisavač','robot vacuum','roborock','xiaomi robot','dreame','mova','ecovacs','eufy','rowenta robot','beko robot']){ try{(await svList(q)).filter(ok).forEach(x=>SVR[x.slug]=row(x));}catch(e){} }
+ SVlog.push('watchdone');
+ for(const q of ['televizor','smart tv','laptop','notebook','monitor','mobitel','smartphone','samsung galaxy','iphone','xiaomi','tablet','pametni sat','slušalice','zvučnik','soundbar','playstation','konzola','gaming','usisivač','robot','frižider','hladnjak','veš mašina','mašina za suđe','sušilica','klima','friteza','aparat za kafu','mikrovalna','štednjak','pegla','fen','aparat za brijanje','trimer','romobil','printer','ssd','grafička','router','projektor','mikser','blender','bojler','grijalica','tefal','philips','gorenje','beko','lg','sony','lenovo','asus','hp','acer','dell','apple','bosch','rowenta','dyson']){ try{(await svList(q,'&onSale=true')).filter(x=>ok(x)&&x.salePrice&&+x.salePrice<+x.price).forEach(x=>SV[x.slug]={...row(x),end:(x.saleEndsAt||'').slice(0,10)});}catch(e){} SVlog.push(q); }
+ SVlog.push('END'); })();
+// SV kategorije po nazivu (regex): matična ploča/grafička→L; brijanje/trimer/fen→N; playstation/konzola/gaming→G; romobil→S; iphone/galaxy/mobitel/sat/slušalice→M; TV/soundbar/zvučnik/projektor→T; laptop/monitor/tablet/printer/ssd/router→L; aparati za kuću→K.
+// Izbaci: maske, kablove, punjače, filtere, nosače, tonere, torbe, dječije igračke, video nadzor/konferencijske kamere, polovne (npr. "79%" baterije). Popusti su obično 5–20%; uzmi ≥10%, ~50 artikala, note "Prodavač: X · akcija do 30.11.".
+
 // ===== IZVOZ (u svakom tabu): top ~110 po % popusta, ≥10%, kompaktno "id|naziv|cijena|stara|kat" =====
 // Object.entries(X).filter(([k,v])=>v.o&&v.o>v.p*1.1).sort((a,b)=>(1-b[1].p/b[1].o)-(1-a[1].p/a[1].o)).slice(0,110).map(([k,v])=>[k,v.n.slice(0,60),v.p,v.o,v.c].join('|')).join('\n')

@@ -1,3 +1,4 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <!DOCTYPE html>
 <html lang="bs">
 <head>
@@ -307,7 +308,7 @@
         const c=el('article',{class:'card',id:g.id});
         c.append(el('div',{class:'n',text:g.name}));
         c.append(el('div',{class:'p',text:km(best.price)}));
-        c.append(el('div',{class:'row'}, el('span',{text:shopName(best.shop)+(best.note&&best.shop==='ananas'?' · '+best.note.replace('Prodavač: ',''):'')}), el('span',{text: shops>1? shops+' prodavnice' : '1 prodavnica'})));
+        c.append(el('div',{class:'row'}, el('span',{text:shopName(best.shop)+(best.note&&['ananas','mungos','svex'].includes(best.shop)?' · '+best.note.replace('Prodavač: ',''):'')}), el('span',{text: shops>1? shops+' prodavnice' : '1 prodavnica'})));
         const pills=el('div',{});
         if(best.old) pills.append(el('span',{class:'pill good',text:'−'+Math.round((1-best.price/best.old)*100)+'%'}));
         if(spread>0) pills.append(el('span',{class:'pill acc',text:'do '+km(spread)+' jeftinije nego drugdje'}));
@@ -361,3 +362,8 @@ b.onclick=function(){if(r.dataset.theme==='dark'){delete r.dataset.theme;try{loc
 </script>
 </body>
 </html>
+
+
+
+
+</body></html>
